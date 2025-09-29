@@ -10,7 +10,7 @@ This repository provides an overview, workflow summaries, and practical resource
 
 It covers tools and approaches ranging from basic data organization and visualization to advanced machine learning integration, emphasizing a [pragmatic approach](https://arxiv.org/abs/2509.12503) to social science research.  
 
-The repository is a work in progress, designed to support learning.  
+The repository is a work in progress, designed to support learning. It is in its early stages, so please send resources (but not hate-mail) to corey.abramson@rice.edu. 
 
 ### Author/Instructor/Curator
 **Corey M. Abramson, Ph.D.** 
@@ -31,6 +31,7 @@ Affiliated Faculty, [Ken Kennedy Institute, Responsible AI and Computing, Rice](
   <p><em>"Sunday": A photo from Professor Abramson’s fieldwork.</em></p>
 </div>
 
+
 **Key Goals:**
 
 > - **Introduce computational tools for analyzing text.**
@@ -38,9 +39,16 @@ Affiliated Faculty, [Ken Kennedy Institute, Responsible AI and Computing, Rice](
 > - **Allow combining pattern-finding with deep reading of qualitative information.**
 > - **Keep links from patterns and models, back to original context (quotes, fieldnotes, transcripts).**
 > - **Prioritize transparency, accuracy, and human insight alongside purposeful technology use (study design, analysis, validation, de-ID, open sourcing).**
+> - **Introduce flexible visualization options usable across projects and data types**
 See: [Computational Ethnography Lab (CEL) Home](https://computationalethnography.org/) for more background and tools 
 
----
+<p>In addition to checking out this page and the GitHub repo, you might also find the following useful background:</p>
+<ul>
+    <li>This very useful video by Rice grad Jakira Silas introducing how to use the toolkit in google collab (<a class="inline_disabled" href="https://vimeo.com/1122226315" target="_blank" rel="noopener">link</a>). # Highly recommended if you have not used python/jupyter/google colab before.</li>
+    <li>This pre-print on combinations of qualitative and computational social science, which also has very detailed workflow (<a class="inline_disabled" href="https://osf.io/preprints/socarxiv/7bsgy_v1" target="_blank" rel="noopener">link</a>)</li>
+    <li>This pre-print which discusses data formatting and processing in detail, focused on field methods and making interviews/fieldnotes usable for computational analysis (<a class="inline_disabled" href="https://osf.io/preprints/osf/jvpbw_v1" target="_blank" rel="noopener">link</a>)</li>
+    <li><span style="font-family: inherit; font-size: 1rem;">This introduction to machine learning for qualitative research, focused on scaling <a class="inline_disabled" href="https://cmabramson.com/resources/f/qualitative-coding-simplified" target="_blank" rel="noopener">coding</a> (e.g. adding information like #morality_talk to annotate text), and some related aspects of workflow using interviews (from ASA 2022) (l<a class="inline_disabled" href="https://colab.research.google.com/drive/1qMwvjaY6DKQ-jxFTyXt3S3qNQdpV_S9n?usp=sharing" target="_blank" rel="noopener">ink</a>)</span></li>
+</ul>
 
 ## Table of Contents
 
@@ -185,7 +193,7 @@ A key consideration is *how*—or *whether*—to integrate computational tools i
 
 1.  **Streamline (Organizational):**
       * Using computational tools to manage the logistics of research—organizing manifests, facilitating de-identification, managing quotes, and tracking team progress—even if the core coding and analysis remain entirely manual.
-2.  **Scale-up (Efficiency/Throughput):**
+2.  **Scale-up (Efficiency/Scope):**
       * When the corpus is large, longitudinal, or multi-site, machine learning (e.g., supervised classification) is used to assist human coding. This requires high-quality human-labeled training data and rigorous human checks and validation (e.g., hybrid approaches).
 3.  **Hybrid (Iterative Refinement and Mixed Methods):**
       * Interleaving human analysis with computational methods to answer different types of questions or refine understanding. This can involve iterative coding refinement (Li et al. 2021), or using computational patterns (e.g., visualization, network analysis) to identify typologies or variations that guide subsequent in-depth reading and comparison (Abramson et al. 2025).
@@ -240,7 +248,8 @@ The toolkit supports granular analysis mirroring qualitative practices (at the l
     <img src="https://github.com/Computational-Ethnography-Lab/.github/raw/95529a5a1ffa938274ac5b4b912dbf99e26fd572/profile/images/wordcloud.png" class="plot-img">
     <div class="caption"><em>A word cloud with user-defined concept groups. (Source: CEL)</em></div>
   </div>
-</div>
+
+[Tutorial video](https://player.vimeo.com/video/1122226315?badge=0&amp;autopause=0&amp)
 
 ### Machine Learning and NLP Tutorials
 
@@ -325,6 +334,9 @@ Resources for integrating traditional Computer-Assisted Qualitative Data Analysi
 *   **Workflow, File Naming, and General Guidance**: [Li and Abramson 2025](https://arxiv.org/abs/2412.06087)
 
 [Return to Table of Contents](#table-of-contents)
+
+### Automations and Commercial Tools
+//In-progress//
 
 ---
 
