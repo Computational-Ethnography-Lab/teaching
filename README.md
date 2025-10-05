@@ -13,9 +13,9 @@ It covers tools and approaches ranging from basic data organization and visualiz
 The repository is a work in progress, designed to support learning. It is in its early stages, so please send resources (but not hate-mail) to corey.abramson@rice.edu. 
 
 ### A Few Key Links
-[Visualization Toolkit (collab version)](https://tinyurl.com/cmapoctober5)
-[Lab home - links to everything](https://github.com/Computational-Ethnography-Lab )
-R to python cheat sheets, not mine [1](https://github.com/SrihariPramod/R_vs_Python_Cheatsheet/blob/master/R_vs_Python.pdf), [2](https://datascientyst.com/pandas-vs-r-cheat-sheet/#6-pandas-vs-r-comparison)
+[Visualization Toolkit (collab version)](https://tinyurl.com/cmapoctober5)  
+[Lab home - links to everything](https://github.com/Computational-Ethnography-Lab )  
+R to python cheat sheets, not mine but useful!: [1](https://github.com/SrihariPramod/R_vs_Python_Cheatsheet/blob/master/R_vs_Python.pdf), [2](https://datascientyst.com/pandas-vs-r-cheat-sheet/#6-pandas-vs-r-comparison)  
 
 ### Author/Instructor/Curator
 **Corey M. Abramson, Ph.D.** 
