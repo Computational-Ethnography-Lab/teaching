@@ -10,7 +10,7 @@ This repository provides an overview, workflow summaries, and practical resource
 
 It covers tools and approaches ranging from basic data organization and visualization to advanced machine learning integration, emphasizing a [pragmatic approach](https://arxiv.org/abs/2509.12503) to social science research.  
 
-The repository is a work in progress, designed to support learning. It is in its early stages, so please send resources (but not hate-mail) to corey.abramson@rice.edu. 
+The repository is a work in progress, designed to support learning. It is in its early stages, so please send resources or thoughts (but not hate-mail) to corey.abramson@rice.edu. 
 
 ### A Few Key Links
 [Visualization Toolkit (collab version)](https://tinyurl.com/cmapoctober5)  
