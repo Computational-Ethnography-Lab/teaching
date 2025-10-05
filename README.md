@@ -15,7 +15,9 @@ The repository is a work in progress, designed to support learning. It is in its
 ### A Few Key Links
 [Visualization Toolkit (collab version)](https://tinyurl.com/cmapoctober5)  
 [Lab home - links to everything](https://github.com/Computational-Ethnography-Lab )  
-R to python cheat sheets, not mine but useful!: [1](https://github.com/SrihariPramod/R_vs_Python_Cheatsheet/blob/master/R_vs_Python.pdf), [2](https://datascientyst.com/pandas-vs-r-cheat-sheet/#6-pandas-vs-r-comparison)  
+[Some general Qualitative Data Analysis resources](https://cmabramson.com/resources)  
+[Review Paper](https://osf.io/preprints/socarxiv/7bsgy_v1) on Pragmatic Approach to Qualitative Research and Computational Social Science
+R to python cheat sheets, not mine but useful if you use R!: [1](https://github.com/SrihariPramod/R_vs_Python_Cheatsheet/blob/master/R_vs_Python.pdf), [2](https://datascientyst.com/pandas-vs-r-cheat-sheet/#6-pandas-vs-r-comparison)  
 
 ### Author/Instructor/Curator
 **Corey M. Abramson, Ph.D.** 
