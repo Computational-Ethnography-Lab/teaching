@@ -41,7 +41,7 @@ Affiliated Faculty, [Ken Kennedy Institute, Responsible AI and Computing, Rice](
 
 **Key Goals:**
 
-> - **Introduce computational tools for analyzing text.**
+> - **Introduce workflow and computational tools for analyzing text.**
 > - **Facilitate social-scientific analyses for varied projects.**
 > - **Allow combining pattern-finding with deep reading of qualitative information.**
 > - **Keep links from patterns and models, back to original context (quotes, fieldnotes, transcripts).**
