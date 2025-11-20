@@ -8,7 +8,7 @@
 
 This repository provides an overview, workflow summaries, and practical resources for integrating computational text analysis—primarily using Python—with qualitative and historical research methods.  
 
-It covers tools and approaches ranging from basic data organization and visualization to advanced machine learning integration, emphasizing a [pragmatic approach](https://arxiv.org/abs/2509.12503) to social science research.  
+It covers tools and approaches ranging from basic data organization and visualization to advanced machine learning integration, emphasizing a [pragmatic approach](https://osf.io/preprints/socarxiv/7bsgy_v4) to social science research.  
 
 The repository is a work in progress, designed to support learning. It is in its early stages, so please send resources or thoughts (but not hate-mail) to corey.abramson@rice.edu. 
 
