@@ -8,9 +8,11 @@
 
 This repository provides an overview, workflow summaries, and practical resources for integrating computational text analysis—primarily using Python—with qualitative and historical research methods.  
 
-It covers tools and approaches ranging from basic data organization and visualization to advanced machine learning integration, emphasizing a [pragmatic approach](https://osf.io/preprints/socarxiv/7bsgy_v4) to social science research.  
+It covers tools and approaches ranging from basic data organization and visualization to advanced machine learning integration, emphasizing a [pragmatic approach](https://arxiv.org/abs/2509.12503)) to social science research drawing on a recent Annual Review of Sociology article (Abramson et al. 2026).  
 
-The repository is a work in progress, designed to support learning. It is in its early stages, so please send resources or thoughts (but not hate-mail) to corey.abramson@rice.edu. 
+The repository is a work in progress, designed to support learning. It is in its early stages, so please send resources or thoughts (but not hate-mail) to corey.abramson@rice.edu.  
+
+You can read a related wiki with more links on [AI in social science](https://github.com/Computational-Ethnography-Lab/ai-wiki).
 
 ### A Few Key Links
 [Visualization Toolkit (collab version)](https://tinyurl.com/cmapoctober5)  
@@ -477,3 +479,5 @@ Boutyline, Andrei and Alina Arseniev-Koehler. 2025. “Meaning in Hyperspace: Wo
 Geertz, Clifford. 1973. *The Interpretation of Cultures: Selected Essays*. New York: Basic Books. See especially the essay on _Thick Description_
 
 Mohr, John W., and Vincent Duquenne. 1997. “The Duality of Culture and Practice: Poverty Relief in New York City, 1888–1917.” *Theory and Society* 26(2/3):305–56. [https://doi.org/10.1023/A:1006887701210](https://www.jstor.org/stable/657930).
+
+> NOTE: Some content in this repository was edited and formatted with assistance from Claude Sonnet 4.6 and Opus 4.6 (Anthropic).
