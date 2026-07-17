@@ -72,20 +72,21 @@ See: [Computational Ethnography Lab (CEL) Home](https://computationalethnography
 *   [III. Python Toolkits and Resources](#iii-python-toolkits-and-resources)
     *   [Visualization: The CMAP Toolkit](#visualization-the-cmap-toolkit)
     *   [Machine Learning and NLP Tutorials](#machine-learning-and-nlp-tutorials)
-    *   [Core Python Stacks & Docs](#core-python-stacks--docs)
-    *   [Data Visualization Resources (Sociology + Practice)](#data-visualization-resources-sociology--practice)
+    *   [Core Python Packages & Docs](#core-python-packages--docs)
+    *   [Data Visualization Resources](#data-visualization-resources)
     *   [De-identification (NIH/HHS & Open Tools)](#de-identification-nihhhs--open-tools)
     *   [Conceptual Guides, Blogs, and How-Tos](#conceptual-guides-blogs-and-how-tos)
     *   [CAQDAS & Exporting QDA for Python](#caqdas--exporting-qda-for-python)
+    *   [Automations and Commercial Tools](#automations-and-commercial-tools)
 *   [IV. Glossary (Selected)](#iv-glossary-selected)
-*   [V. Bibliography (ASA Style, by Topic)](#v-bibliography-asa-style-by-topic)
+*   [V. Bibliography](#v-bibliography)
     *   [Frameworks, Pragmatic Approaches, and Mixed Methods](#frameworks-pragmatic-approaches-and-mixed-methods)
     *   [Comparative Methods and Research Design](#comparative-methods-and-research-design)
-    *   [Computational Ethnography and Hybrid Approaches](#computational-ethnography-and-hybrid-approaches)
+    *   [Computational Ethnography, Streamlining Analysis and Hybrid Approaches to Qualitative Analysis](#computational-ethnography-streamlining-analysis-and-hybrid-approaches-to-qualitative-analysis)
     *   [Computational Social Science (CSS) and Text Analysis Methods](#computational-social-science-css-and-text-analysis-methods)
-    *   [Culture, Meaning-Space, and Historical Methods](#culture-meaning-space-and-historical-methods)
     *   [Data Visualization and Tools](#data-visualization-and-tools)
-    *   [Ethics, De-identification, and Sharing](#ethics-de-identification-and-sharing)
+    *   [Ethics, De-identification, and Sharing Qualitative Data](#ethics-de-identification-and-sharing-qualitative-data)
+    *   [Meanings](#meanings)
 
 ---
 
@@ -104,7 +105,7 @@ Yet, even if you don't agree, knowing more about these tools and their logics-- 
 Much of this uses python, as it is a free open-source programing language that is both extremely flexible, and adaptable for computational text analysis, machine learning, and visualization (alongside statistics and myriad other applications). There are also links to R, for stats and data visualization. Both languages are important in computational social science work.
 
 ### Key Strategies and Frameworks
-Qualitative data, is information-- often produced via in-depth methods such as participant observation, in -depth interviews, and historical analyses-- that was generated or collected with the intent of not being  reducible to numeric form alone (Abramson et  al. 2025). 
+Qualitative data, is information-- often produced via in-depth methods such as participant observation, in -depth interviews, and historical analyses-- that was generated or collected with the intent of not being  reducible to numeric form alone (Abramson et  al. 2026). 
 
 Analyzing qualitative data computationally, without reduction to numbers alone, can take various forms depending on the research paradigm, ethnographic tradition or approach to combining methods:
 *   **Computational Ethnography:** is one  approach that uses a pragmatic mixed methods approach.
@@ -130,9 +131,10 @@ However, the principles and tools presented here are broadly applicable. They ha
 
 ## II. Core Workflow and Components
 
+<!-- ANCHOR: do not rename — linked from toolkit README and the notebook -->
 ### Workflow Steps (End-to-End)
 
-The workflow for analyzing text as data is iterative. This synthesized workflow integrates pragmatic qualitative steps (Abramson et al. 2025; Li and Abramson 2025) with frameworks established in CSS (Grimmer et al. 2022).
+The workflow for analyzing text as data is iterative. This synthesized workflow integrates pragmatic qualitative steps (Abramson et al. 2026; Li and Abramson 2025) with frameworks established in CSS (Grimmer et al. 2022).
 
 ```mermaid
 graph TD
@@ -162,7 +164,7 @@ graph TD
       * Choose representations (BOW/TF-IDF, dictionaries, embeddings) to fit the QoI. This involves visualizing patterns, combined with readings.
       * *Python Tools:* `scikit-learn` vectorizers (DTM/TF-IDF); Hugging Face `transformers` (Embeddings).
 5.  **Annotating and Linking**
-      * *Annotating:* Build human system for indexing data. For instance, utilize a hybrid approach—combining automation (lists, machine learning) and human coding depending on scope and complexity (Abramson et al. 2025). This involves managing tradeoffs: while accuracy is key for a realist approach, time efficiency and identifying insights otherwise missed are also crucial considerations (Li et al. 2021).
+      * *Annotating:* Build human system for indexing data. For instance, utilize a hybrid approach—combining automation (lists, machine learning) and human coding depending on scope and complexity (Abramson et al. 2026). This involves managing tradeoffs: while accuracy is key for a realist approach, time efficiency and identifying insights otherwise missed are also crucial considerations (Li et al. 2021).
       * *Entity tagging*: (persons/orgs/places) via `spaCy` NER.
       * *Linking:* Join texts to variables in dataframe (site, time, treatment, demographics) for comparison and modeling. If useing qualitative software, or purposeful file naming, this can be done with minimal work (Li and ABramson 2025)[https://arxiv.org/pdf/2412.06087] 
       * *Python Tools:* `spaCy` NER; `pandas` (linking).
@@ -173,6 +175,7 @@ graph TD
 7.  **Dissemination and Archiving**
       * Reproducible Jupyter notebooks (see [workshop repo](#machine-learning-and-nlp-tutorials)), [CMAP visualizations](#visualization-the-cmap-toolkit), codebooks, curated quotes. Pair patterns + passages in presentation. Archive code/data where allowed; follow [de-identification guidance](#de-identification-nihhhs--open-tools) and document limits/ethics.
 
+<!-- ANCHOR: do not rename — linked from toolkit README, paper.md, and the notebook -->
 ### Data Schema Example (CMAP)
 
 For structured analysis and visualization (e.g., using the CMAP toolkit), data should be organized into a consistent tabular format (e.g., CSV or DataFrame). Below is an example schema:
@@ -180,36 +183,70 @@ For structured analysis and visualization (e.g., using the CMAP toolkit), data s
 ```python
 # Updated schema with Python typing
 schema = {
-    "project": str,          # List project
-    "number": str,           # Position information
-    "reference": int,        # Position information
-    "text": str,             # Content, critical field: must not be empty
-    "document": str,         # Data source, Critical field: must not be empty
-    "old_codes": list[str],  # Optional: codings, must be a list of strings
-    "start_position": int,   # Position information
-    "end_position": int,     # Position information
+    "project": str,         # List project
+    "number": str,          # Position information
+    "reference": int,       # Position information
+    "text": str,            # Content, critical field: must not be empty
+    "document": str,        # Data source, Critical field: must not be empty
+    "old_codes": list[str], # Optional: codings, must be a list of strings
+    "start_position": int,  # Position information
+    "end_position": int,    # Position information
     "data_group": list[str], # Optional, to differentiate document sets: Must be a list of strings
-    "text_length": int,      # Optional: NLP info
-    "word_count": int,       # Optional: NLP info
-    "doc_id": str,           # Optional: NLP info, unique paragraph level identifier
-    "codes": list[str]       # Critical for analyses with codes, Must be a list of strings
+    "text_length": int,     # Optional: NLP info
+    "word_count": int,      # Optional: NLP info
+    "doc_id": str,          # Optional: NLP info, unique paragraph level identifier
+    "codes": list[str]      # Critical for analyses with codes, Must be a list of strings
 }
 ```
+```python
+  example (simulated, not actual data):
+  {
+    "project": "engineer_interviews",
+    "number": "675:113" #For reconstructing with QDA software
+    "reference": 244 #For reconstructing with QDA software
+    "text": "EG002: So the thing is..." # Actual paragraph level text,
+    "document": "INTV_EG002_20250801.txt" # name of document, in which text is found
+    "start_position": 244 #For reconstructing with QDA software
+    "end_position": 248 #For reconstructing with QDA software
+    "data_group": ["data_type_cg_interviews","interview"] # For subsetting by data type, or characteristic
+    "text_length": 441 # nlp
+    "word_count": 82 # nlp
+    "doc_id": "EG002_76426", #unique ID for text segment in file, to reconstruct or link to raw data, sequential
+    "codes": ["narrative_life", "education_perceptions"] # qualitative codes, for concepts, themes, variables
+    "old_codes": [
+      "science_belief",
+      "subject_speech_all"
+    ] # qualitative codes, for concepts, themes, variables; archived to silo and reduce clutter
+
+  }
+```
+
+**Critical Fields**:
+- `text`: Main content field - cannot be empty
+- `document`: Source information - cannot be empty
+- `codes`: Required for code-based analyses - must be a list of strings if used
+
+**Important Notes**:
+- Lists (like `codes` and `data_group`) must be proper Python lists, not strings that look like lists
+- If you're exporting from qualitative data analysis software, ensure you convert any code fields to proper lists
+- The toolkit will validate your data structure and provide error messages for common issues
+
+For the exact CSV columns the CMAP notebook validates at runtime, see [toolkit README → Data Structure](https://github.com/Computational-Ethnography-Lab/cmap_visualization_toolkit#data-structure).
 
 ### Modes of Combining Computation and Qualitative Analysis
 
-A key consideration is *how*—or *whether*—to integrate computational tools into the analytical workflow. Researchers adopt different modes based on project needs, data sensitivity, and analytical goals (Abramson et al. 2025).
+A key consideration is *how*—or *whether*—to integrate computational tools into the analytical workflow. Researchers adopt different modes based on project needs, data sensitivity, and analytical goals (Abramson et al. 2026).
 
 1.  **Streamline (Organizational):**
       * Using computational tools to manage the logistics of research—organizing manifests, facilitating de-identification, managing quotes, and tracking team progress—even if the core coding and analysis remain entirely manual.
 2.  **Scale-up (Efficiency/Scope):**
       * When the corpus is large, longitudinal, or multi-site, machine learning (e.g., supervised classification) is used to assist human coding. This requires high-quality human-labeled training data and rigorous human checks and validation (e.g., hybrid approaches).
 3.  **Hybrid (Iterative Refinement and Mixed Methods):**
-      * Interleaving human analysis with computational methods to answer different types of questions or refine understanding. This can involve iterative coding refinement (Li et al. 2021), or using computational patterns (e.g., visualization, network analysis) to identify typologies or variations that guide subsequent in-depth reading and comparison (Abramson et al. 2025).
+      * Interleaving human analysis with computational methods to answer different types of questions or refine understanding. This can involve iterative coding refinement (Li et al. 2021), or using computational patterns (e.g., visualization, network analysis) to identify typologies or variations that guide subsequent in-depth reading and comparison (Abramson et al. 2026).
 4.  **Discovery (Pattern Finding):**
       * Utilizing unsupervised methods (e.g., topic modeling, clustering, visualization) to identify latent patterns, themes, or typologies that guide subsequent deep reading and theory development (Nelson 2020).
 5.  **Minimal/No Computation (The "Sociology of Computation"):**
-      * Deliberately choosing *not* to automate analysis when ethical considerations, highly specific contexts, small scale, or the nature of the inquiry make automation counterproductive or risky. Documenting the rationale for this choice is practical, given review-- explaining reflexivity and decisions has long been central to qualitative inquiry (Abramson et al. 2025;).
+      * Deliberately choosing *not* to automate analysis when ethical considerations, highly specific contexts, small scale, or the nature of the inquiry make automation counterproductive or risky. Documenting the rationale for this choice is practical, given review-- explaining reflexivity and decisions has long been central to qualitative inquiry (Abramson et al. 2026;).
 
 [Return to Table of Contents](#table-of-contents)
 
@@ -227,9 +264,10 @@ The **CMAP (Cultural Mapping and Pattern Analysis) Visualization Toolkit** is an
 
 *   **GitHub Repo (Offline/Full Version):** [https://github.com/Computational-Ethnography-Lab/cmap\_visualization\_toolkit](https://github.com/Computational-Ethnography-Lab/cmap_visualization_toolkit)
     *   *Note: The offline version can be run securely and locally, without sharing data.*
-*   **Teaching Version (Google Colab):** [Link to Notebook](https://colab.research.google.com/github/Computational-Ethnography-Lab/cmap_visualization_toolkit/blob/main/cmap_toolkit_teaching_0_9_4b.ipynb)
-    *   *Note: The Colab version is suitable for public data but relies on cloud computing.*
+*   **Teaching Version (Google Colab):** [Link to Notebook](https://colab.research.google.com/drive/1n90EDMSiXhIaOULUMPJ4W4hqdZCh1NQw?usp=sharing)
+    *   *Note: The Colab version is suitable for public data but relies on cloud computing. Local conda install is recommended; hosted Colab support is in progress.*
 *   **Citation:** Abramson, Corey M. and Yuhan (Victoria) Nian. 2025. *CMAP Visualization Toolkit*. [https://doi.org/10.5281/zenodo.17162829](https://doi.org/10.5281/zenodo.17162829).
+*   **Design notes:** rationale for the notebook's setup cells (environment configuration, stopword/word-family definitions) is in the [toolkit README → Design Notes](https://github.com/Computational-Ethnography-Lab/cmap_visualization_toolkit#design-notes).
 
 **Capabilities:**
 The toolkit supports granular analysis mirroring qualitative practices (at the level of words, sentences, paragraphs), yet is scalable for large datasets. It utilizes various analytic methods, including co-occurrences, several clustering methodologies (e.g., Cosine similarity, Jaccard, PMI, TF-IDF), and word embeddings (e.g., RoBERTa) approaches.
@@ -350,6 +388,9 @@ Resources for integrating traditional Computer-Assisted Qualitative Data Analysi
 ---
 
 ## IV. Glossary (Selected)
+
+*This glossary covers methods vocabulary for computational qualitative analysis. For AI/machine-learning and agent/tooling terms, see the [AI wiki → Key Terms](https://github.com/Computational-Ethnography-Lab/ai-wiki#key-terms).*
+
 *   **Artificial Intelligence (AI):** A broad category of computational systems designed to simulate human-like capabilities such as reasoning, learning, or decision-making. In practice, "AI" is often a moving target that reflects the automation of previously human tasks using algorithms, rules, or learned patterns.
 *   **Comparative Ethnographic Analysis:** Designing analyses across sites/times/groups with transparent logics, bounds and purposes of comparison (Abramson and Gong 2020).
 *   **Computational Ethnography (CE):** A mixed-methods approach combining in-depth text analysis with computational pattern analysis and visualization, focusing on situated meaning (Abramson et al. 2018; CEL 2025).
@@ -371,13 +412,16 @@ Resources for integrating traditional Computer-Assisted Qualitative Data Analysi
 
 ---
 
-## V. Bibliography and More Resources (in progress)
+<!-- ANCHOR: do not rename — linked from toolkit README -->
+## V. Bibliography
+
+*A curated topical reading list (ASA style, by topic). In progress — suggestions welcome.*
 
 ### Frameworks, Pragmatic Approaches, and Mixed Methods
 
 Abramson, Corey M. 2024. “From Carbon Paper to Code: Crafting Sociology in an Age of AI.” *Contexts* Blog. Retrieved September 25, 2025 ([https://contexts.org/blog/soc-ai/](https://contexts.org/blog/soc-ai/)).
 
-Abramson, Corey M., Zhuofan Li, Tara Prendergast, and Daniel Dohan. 2025. “Qualitative Research in an Era of AI: A Pragmatic Approach to Data Analysis, Workflow, and Computation.” *Annual Review of Sociology* (Forthcoming). Preprint: [https://doi.org/10.48550/arXiv.2509.12503](https://doi.org/10.48550/arXiv.2509.12503).
+Abramson, Corey M., Tara Prendergast, Zhuofan Li, and Daniel Dohan. 2026. “Qualitative Research in an Era of Artificial Intelligence: A Pragmatic Approach to Data Analysis, Workflow, and Computation.” *Annual Review of Sociology* 52:20.1–20.27. [https://doi.org/10.1146/annurev-soc-011824-104836](https://doi.org/10.1146/annurev-soc-011824-104836). Preprint: [https://doi.org/10.48550/arXiv.2509.12503](https://doi.org/10.48550/arXiv.2509.12503).
 
 Breiger, Ronald L. 2015. “Scaling Down.” *Big Data & Society* 2(2). [https://doi.org/10.1177/2053951715602497](https://doi.org/10.1177/2053951715602497).
 
@@ -394,7 +438,7 @@ Pardo-Guerra, Juan Pablo, and Prithviraj Pahwa. 2022. “The Extended Computatio
 Small, Mario Luis. 2011. “How to Conduct a Mixed Methods Study: Recent Trends in a Rapidly Growing Literature.” *Annual Review of Sociology* 37(1):57–86. [https://doi.org/10.1146/annurev.soc.012809.102657](https://doi.org/10.1146/annurev.soc.012809.102657).  
 
 
-### Comparative  Methods and Research Design
+### Comparative Methods and Research Design
 
 Abramson, Corey M. and Neil Gong. 2020. “The Promise, Pitfalls, and Practicalities of Comparative Ethnography.” Beyond the Case: The Logics and Practices of Comparative Ethnography. New York, NY: Oxford University Press. [link](https://global.oup.com/academic/product/beyond-the-case-9780190608491?cc=us&lang=en&#)
 
