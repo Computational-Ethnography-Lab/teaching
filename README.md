@@ -264,7 +264,7 @@ The **CMAP (Cultural Mapping and Pattern Analysis) Visualization Toolkit** is an
 
 *   **GitHub Repo (Offline/Full Version):** [https://github.com/Computational-Ethnography-Lab/cmap\_visualization\_toolkit](https://github.com/Computational-Ethnography-Lab/cmap_visualization_toolkit)
     *   *Note: The offline version can be run securely and locally, without sharing data.*
-*   **Teaching Version (Google Colab):** [Link to Notebook](https://colab.research.google.com/drive/1n90EDMSiXhIaOULUMPJ4W4hqdZCh1NQw?usp=sharing)
+*   **Teaching Version (Google Colab):** [Link to Notebook](https://colab.research.google.com/github/Computational-Ethnography-Lab/cmap_visualization_toolkit/blob/v0.9.5/visualization_toolkit_final.ipynb)
     *   *Note: The Colab version is suitable for public data but relies on cloud computing. Local conda install is recommended; hosted Colab support is in progress.*
 *   **Citation:** Abramson, Corey M. and Yuhan (Victoria) Nian. 2025. *CMAP Visualization Toolkit*. [https://doi.org/10.5281/zenodo.17162829](https://doi.org/10.5281/zenodo.17162829).
 *   **Design notes:** rationale for the notebook's setup cells (environment configuration, stopword/word-family definitions) is in the [toolkit README → Design Notes](https://github.com/Computational-Ethnography-Lab/cmap_visualization_toolkit#design-notes).
