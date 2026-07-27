@@ -55,7 +55,7 @@ See: [Computational Ethnography Lab (CEL) Home](https://computationalethnography
 
 <p><strong>Getting set up.</strong> These short lab videos cover the tooling, in the order you need it. The Colab route below needs none of them, so skip ahead if you just want to try the toolkit.</p>
 <ul>
-    <li>Installing Anaconda, to run Python on your own machine (<a class="inline_disabled" href="https://youtu.be/mP-FOogmJuM" target="_blank" rel="noopener">link</a>). # Start here if you have not used Python locally before.</li>
+    <li>Installing Anaconda, to run Python on your own machine, by Rice grad Jakira Silas (<a class="inline_disabled" href="https://youtu.be/mP-FOogmJuM" target="_blank" rel="noopener">link</a>). # Start here if you have not used Python locally before.</li>
     <li>An introduction to GitHub, what it is and how the lab uses it, by Rice University Undergrad Alejandro Hernandez Espinoza (<a class="inline_disabled" href="https://youtu.be/JjYRAsXUL54" target="_blank" rel="noopener">link</a>).</li>
     <li>Cloning a repository from GitHub, to get the code onto your machine, by Rice grad Jakira Silas (<a class="inline_disabled" href="https://youtu.be/dnsLjgckl4g" target="_blank" rel="noopener">link</a>).</li>
 </ul>
