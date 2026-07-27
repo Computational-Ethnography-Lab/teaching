@@ -52,6 +52,15 @@ Affiliated Faculty, [Ken Kennedy Institute, Responsible AI and Computing, Rice](
 See: [Computational Ethnography Lab (CEL) Home](https://computationalethnography.org/) for more background and tools 
 
 <p>In addition to checking out this page and the GitHub repo, you might also find the following useful background:</p>
+
+<p><strong>Getting set up.</strong> These short lab videos cover the tooling, in the order you need it. The Colab route below needs none of them, so skip ahead if you just want to try the toolkit.</p>
+<ul>
+    <li>Installing Anaconda, to run Python on your own machine (<a class="inline_disabled" href="https://youtu.be/mP-FOogmJuM" target="_blank" rel="noopener">link</a>). # Start here if you have not used Python locally before.</li>
+    <li>An introduction to GitHub, what it is and how the lab uses it, by Rice University Undergrad Alejandro Hernandez Espinoza (<a class="inline_disabled" href="https://youtu.be/JjYRAsXUL54" target="_blank" rel="noopener">link</a>).</li>
+    <li>Cloning a repository from GitHub, to get the code onto your machine, by Rice grad Jakira Silas (<a class="inline_disabled" href="https://youtu.be/dnsLjgckl4g" target="_blank" rel="noopener">link</a>).</li>
+</ul>
+
+<p><strong>Using the toolkit and further reading.</strong></p>
 <ul>
     <li>This very useful video by Rice grad Jakira Silas introducing how to use the toolkit in google collab (<a class="inline_disabled" href="https://vimeo.com/1122226315" target="_blank" rel="noopener">link</a>). # Highly recommended if you have not used python/jupyter/google colab before.</li>
     <li>This pre-print on combinations of qualitative and computational social science, which also has very detailed workflow (<a class="inline_disabled" href="https://osf.io/preprints/socarxiv/7bsgy_v1" target="_blank" rel="noopener">link</a>)</li>
