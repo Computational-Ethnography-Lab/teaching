@@ -8,7 +8,7 @@
 
 This repository provides an overview, workflow summaries, and practical resources for integrating computational text analysis—primarily using Python—with qualitative and historical research methods.  
 
-It covers tools and approaches ranging from basic data organization and visualization to advanced machine learning integration, emphasizing a [pragmatic approach](https://arxiv.org/abs/2509.12503)) to social science research drawing on a recent Annual Review of Sociology article (Abramson et al. 2026).  
+It covers tools and approaches ranging from basic data organization and visualization to advanced machine learning integration, emphasizing a [pragmatic approach](https://www.annualreviews.org/content/journals/10.1146/annurev-soc-011824-104836) to social science research drawing on a recent Annual Review of Sociology article (Abramson et al. 2026).  
 
 The repository is a work in progress, designed to support learning. It is in its early stages, so please send resources or thoughts (but not hate-mail) to corey.abramson@rice.edu.  
 
@@ -18,7 +18,7 @@ You can read a related wiki with more links on [AI in social science](https://gi
 [Visualization Toolkit (collab version)](https://tinyurl.com/cmapoctober5)  
 [Lab home - links to everything](https://github.com/Computational-Ethnography-Lab )  
 [Some general Qualitative Data Analysis resources](https://cmabramson.com/resources)  
-[Review Paper](https://osf.io/preprints/socarxiv/7bsgy_v1) on Pragmatic Approach to Qualitative Research and Computational Social Science
+[Review Paper](https://www.annualreviews.org/content/journals/10.1146/annurev-soc-011824-104836) on Pragmatic Approach to Qualitative Research and Computational Social Science
 R to python cheat sheets, not mine but useful if you use R!: [1](https://github.com/SrihariPramod/R_vs_Python_Cheatsheet/blob/master/R_vs_Python.pdf), [2](https://datascientyst.com/pandas-vs-r-cheat-sheet/#6-pandas-vs-r-comparison)  
 
 ### Author/Instructor/Curator
@@ -63,7 +63,7 @@ See: [Computational Ethnography Lab (CEL) Home](https://computationalethnography
 <p><strong>Using the toolkit and further reading.</strong></p>
 <ul>
     <li>This very useful video by Rice grad Jakira Silas introducing how to use the toolkit in google collab (<a class="inline_disabled" href="https://vimeo.com/1122226315" target="_blank" rel="noopener">link</a>). # Highly recommended if you have not used python/jupyter/google colab before.</li>
-    <li>This pre-print on combinations of qualitative and computational social science, which also has very detailed workflow (<a class="inline_disabled" href="https://osf.io/preprints/socarxiv/7bsgy_v1" target="_blank" rel="noopener">link</a>)</li>
+    <li>This Annual Review of Sociology article on combinations of qualitative and computational social science, which also has very detailed workflow (<a class="inline_disabled" href="https://www.annualreviews.org/content/journals/10.1146/annurev-soc-011824-104836" target="_blank" rel="noopener">link</a>)</li>
     <li>This pre-print which discusses data formatting and processing in detail, focused on field methods and making interviews/fieldnotes usable for computational analysis (<a class="inline_disabled" href="https://osf.io/preprints/osf/jvpbw_v1" target="_blank" rel="noopener">link</a>)</li>
     <li><span style="font-family: inherit; font-size: 1rem;">This introduction to machine learning for qualitative research, focused on scaling <a class="inline_disabled" href="https://cmabramson.com/resources/f/qualitative-coding-simplified" target="_blank" rel="noopener">coding</a> (e.g. adding information like #morality_talk to annotate text), and some related aspects of workflow using interviews (from ASA 2022) (l<a class="inline_disabled" href="https://colab.research.google.com/drive/1qMwvjaY6DKQ-jxFTyXt3S3qNQdpV_S9n?usp=sharing" target="_blank" rel="noopener">ink</a>)</span></li>
 </ul>
@@ -431,7 +431,7 @@ Resources for integrating traditional Computer-Assisted Qualitative Data Analysi
 
 Abramson, Corey M. 2024. “From Carbon Paper to Code: Crafting Sociology in an Age of AI.” *Contexts* Blog. Retrieved September 25, 2025 ([https://contexts.org/blog/soc-ai/](https://contexts.org/blog/soc-ai/)).
 
-Abramson, Corey M., Tara Prendergast, Zhuofan Li, and Daniel Dohan. 2026. “Qualitative Research in an Era of Artificial Intelligence: A Pragmatic Approach to Data Analysis, Workflow, and Computation.” *Annual Review of Sociology* 52:20.1–20.27. [https://doi.org/10.1146/annurev-soc-011824-104836](https://doi.org/10.1146/annurev-soc-011824-104836). Preprint: [https://doi.org/10.48550/arXiv.2509.12503](https://doi.org/10.48550/arXiv.2509.12503).
+Abramson, Corey M., Tara Prendergast, Zhuofan Li, and Daniel Dohan. 2026. “Qualitative Research in an Era of Artificial Intelligence: A Pragmatic Approach to Data Analysis, Workflow, and Computation.” *Annual Review of Sociology* 52(1):35–61. [https://doi.org/10.1146/annurev-soc-011824-104836](https://doi.org/10.1146/annurev-soc-011824-104836).
 
 Breiger, Ronald L. 2015. “Scaling Down.” *Big Data & Society* 2(2). [https://doi.org/10.1177/2053951715602497](https://doi.org/10.1177/2053951715602497).
 
