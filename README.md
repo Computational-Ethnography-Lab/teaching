@@ -24,13 +24,15 @@ R to python cheat sheets, not mine but useful if you use R!: [1](https://github.
 ### Author/Instructor/Curator
 **Corey M. Abramson, Ph.D.** 
 
-Associate Professor of Sociology, [Rice University](https://profiles.rice.edu/faculty/corey-m-abramson)  
+Professor of Sociology, [Rice University](https://profiles.rice.edu/faculty/corey-m-abramson)  
 PI, Computational Ethnography Lab, [GitHub](https://github.com/Computational-Ethnography-Lab/)  
 Co-Director, [Center for Computational Insights on Inequality and Society (CIISR)](https://ciisr.rice.edu/)  
+Faculty, [Data Science Initiative, Rice](https://datascience.rice.edu/research/methods-development)  
 Core Faculty, [Medical Cultures Lab, UC San Francisco](https://www.cultureofmedicine.org/about/team)  
-Affiliated Faculty, [Center for Ethnographic Research, UC Berkeley](https://issi.berkeley.edu/cer/people) 
-Affiliated Faculty, [Institute of Health Resilience and Innovation, Rice]( https://ihri.rice.edu/) 
-Affiliated Faculty, [Ken Kennedy Institute, Responsible AI and Computing, Rice](https://kenkennedy.rice.edu/people-affiliates) 
+Affiliated Faculty, [Center for Ethnographic Research, UC Berkeley](https://issi.berkeley.edu/cer/people)  
+Affiliated Faculty, [Institute of Health Resilience and Innovation, Rice](https://ihri.rice.edu/)  
+Affiliated Faculty, [Ken Kennedy Institute, Responsible AI and Computing, Rice](https://kenkennedy.rice.edu/people-affiliates)  
+Fellow, [Center for Advanced Study in the Behavioral Sciences (CASBS)](https://casbs.stanford.edu/), Stanford University (2026–27)  
 
 **Sociology**: stratification and inequality, health and medicine, culture, aging, networks, methodology (qualitative, computational and mixed methods), theory  
 **Health policy**: aging, alzheimer's disease and related dementias, social determinants of health, decision making, end of life, methodology (mixed-methods, big "qual" data)  
@@ -273,7 +275,7 @@ The **CMAP (Cultural Mapping and Pattern Analysis) Visualization Toolkit** is an
 
 *   **GitHub Repo (Offline/Full Version):** [https://github.com/Computational-Ethnography-Lab/cmap\_visualization\_toolkit](https://github.com/Computational-Ethnography-Lab/cmap_visualization_toolkit)
     *   *Note: The offline version can be run securely and locally, without sharing data.*
-*   **Teaching Version (Google Colab):** [Link to Notebook](https://colab.research.google.com/github/Computational-Ethnography-Lab/cmap_visualization_toolkit/blob/v0.9.5/visualization_toolkit_final.ipynb)
+*   **Teaching Version (Google Colab):** [Link to Notebook](https://colab.research.google.com/github/Computational-Ethnography-Lab/cmap_visualization_toolkit/blob/v0.9.6/visualization_toolkit_final.ipynb)
     *   *Note: The Colab version is suitable for public data but relies on cloud computing. Local conda install is recommended; hosted Colab support is in progress.*
 *   **Citation:** Abramson, Corey M. and Yuhan (Victoria) Nian. 2025. *CMAP Visualization Toolkit*. [https://doi.org/10.5281/zenodo.17162829](https://doi.org/10.5281/zenodo.17162829).
 *   **Design notes:** rationale for the notebook's setup cells (environment configuration, stopword/word-family definitions) is in the [toolkit README → Design Notes](https://github.com/Computational-Ethnography-Lab/cmap_visualization_toolkit#design-notes).
