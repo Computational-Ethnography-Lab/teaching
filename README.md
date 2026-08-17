@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://github.com/Computational-Ethnography-Lab" target="_blank">
-    <img src="https://github.com/Computational-Ethnography-Lab/.github/raw/95529a5a1ffa938274ac5b4b912dbf99e26fd572/profile/images/lab_banner.jpg" alt="Computational Ethnography Lab Banner" width="100%">
+    <img src="https://raw.githubusercontent.com/Computational-Ethnography-Lab/.github/main/profile/images/lab_banner.jpg" alt="Computational Ethnography Lab Banner" width="100%">
   </a>
 </p>    
 
@@ -15,8 +15,13 @@ The repository is a work in progress, designed to support learning. It is in its
 You can read a related wiki with more links on [AI in social science](https://github.com/Computational-Ethnography-Lab/ai-wiki).
 
 ### A Few Key Links
-[Visualization Toolkit (collab version)](https://tinyurl.com/cmapoctober5)  
-[Lab home - links to everything](https://github.com/Computational-Ethnography-Lab )  
+[AI wiki](https://github.com/Computational-Ethnography-Lab/ai-wiki)  
+[CMAP visualization toolkit](https://github.com/Computational-Ethnography-Lab/cmap_visualization_toolkit) ([Colab](https://tinyurl.com/cmapoctober5))  
+[From Carbon Paper to Code: Crafting Sociology in an Age of AI](https://computationalethnography.org/writing/from-carbon-paper-to-code/) (Contexts)  
+[Lab home - links to everything](https://github.com/Computational-Ethnography-Lab)  
+[QDPX converter](https://github.com/Computational-Ethnography-Lab/cmap_qdpx_converter)  
+[Intro to scaled qualitative analysis](https://github.com/Corey-Abramson/Intro-to-Scaled-Qualitative-Analysis) ([Colab](https://colab.research.google.com/github/Corey-Abramson/Intro-to-Scaled-Qualitative-Analysis/blob/main/notebook/intro_scaled_qualitative_analysis.ipynb)). Public notebook for a scaled qualitative workflow (normalize, read a coded corpus, dictionary/ML/LLM lanes, visualize) on public demo data, with a Colab option. Bundled IEEE oral-history text has its own use restriction.  
+[Replication code](https://github.com/Computational-Ethnography-Lab/replication_code)  
 [Some general Qualitative Data Analysis resources](https://cmabramson.com/resources)  
 [Review Paper](https://www.annualreviews.org/content/journals/10.1146/annurev-soc-011824-104836) on Pragmatic Approach to Qualitative Research and Computational Social Science
 R to python cheat sheets, not mine but useful if you use R!: [1](https://github.com/SrihariPramod/R_vs_Python_Cheatsheet/blob/master/R_vs_Python.pdf), [2](https://datascientyst.com/pandas-vs-r-cheat-sheet/#6-pandas-vs-r-comparison)  
@@ -28,7 +33,7 @@ Professor of Sociology, [Rice University](https://profiles.rice.edu/faculty/core
 PI, Computational Ethnography Lab, [GitHub](https://github.com/Computational-Ethnography-Lab/)  
 Co-Director, [Center for Computational Insights on Inequality and Society (CIISR)](https://ciisr.rice.edu/)  
 Faculty, [Data Science Initiative, Rice](https://datascience.rice.edu/research/methods-development)  
-Core Faculty, [Medical Cultures Lab, UC San Francisco](https://www.cultureofmedicine.org/about/team)  
+Core Faculty, Medical Cultures Lab, UC San Francisco  
 Affiliated Faculty, [Center for Ethnographic Research, UC Berkeley](https://issi.berkeley.edu/cer/people)  
 Affiliated Faculty, [Institute of Health Resilience and Innovation, Rice](https://ihri.rice.edu/)  
 Affiliated Faculty, [Ken Kennedy Institute, Responsible AI and Computing, Rice](https://kenkennedy.rice.edu/people-affiliates)  
@@ -38,7 +43,7 @@ Fellow, [Center for Advanced Study in the Behavioral Sciences (CASBS)](https://c
 **Health policy**: aging, alzheimer's disease and related dementias, social determinants of health, decision making, end of life, methodology (mixed-methods, big "qual" data)  
 
 <div align="center">
-  <img src="https://github.com/Computational-Ethnography-Lab/Computational-Ethnography-Lab.io/blob/9538848f497fcad973893827276b3fc01f08a8b3/images/fieldwork_photo.jpg">
+  <img src="https://raw.githubusercontent.com/Computational-Ethnography-Lab/.github/main/profile/images/fieldwork_photo.jpg">
   <p><em>"Sunday": A photo from Professor Abramson’s fieldwork.</em></p>
 </div>
 
@@ -291,19 +296,19 @@ The toolkit supports granular analysis mirroring qualitative practices (at the l
 
 <div class="grid">
   <div class="grid-item">
-    <img src="https://github.com/Computational-Ethnography-Lab/.github/raw/95529a5a1ffa938274ac5b4b912dbf99e26fd572/profile/images/heatmap_visualization.png" class="plot-img">
+    <img src="https://raw.githubusercontent.com/Computational-Ethnography-Lab/.github/main/profile/images/heatmap_visualization.png" class="plot-img">
     <div class="caption"><em>A heatmap visualizing patterned variation in interviews. (Source: CEL)</em></div>
   </div>
   <div class="grid-item">
-    <img src="https://github.com/Computational-Ethnography-Lab/.github/raw/95529a5a1ffa938274ac5b4b912dbf99e26fd572/profile/images/semantic_network.png" class="plot-img">
+    <img src="https://raw.githubusercontent.com/Computational-Ethnography-Lab/.github/main/profile/images/semantic_network.png" class="plot-img">
     <div class="caption"><em>A semantic network of concepts in field notes and interviews. (Source: CEL)</em></div>
   </div>
   <div class="grid-item">
-    <img src="https://github.com/Computational-Ethnography-Lab/.github/raw/95529a5a1ffa938274ac5b4b912dbf99e26fd572/profile/images/tsne.png" class="plot-img">
+    <img src="https://raw.githubusercontent.com/Computational-Ethnography-Lab/.github/main/profile/images/tsne.png" class="plot-img">
     <div class="caption"><em>A t-SNE plot for document clustering. (Source: CEL)</em></div>
   </div>
   <div class="grid-item">
-    <img src="https://github.com/Computational-Ethnography-Lab/.github/raw/95529a5a1ffa938274ac5b4b912dbf99e26fd572/profile/images/wordcloud.png" class="plot-img">
+    <img src="https://raw.githubusercontent.com/Computational-Ethnography-Lab/.github/main/profile/images/wordcloud.png" class="plot-img">
     <div class="caption"><em>A word cloud with user-defined concept groups. (Source: CEL)</em></div>
   </div>
 
@@ -353,7 +358,7 @@ These libraries form the backbone of many Python-based text analysis workflows (
 
 *   **Python Graphy Gallery:** [Charts by use, with code samples](https://python-graph-gallery.com/)
 *   **Healy & Moody (2014):** ["Data Visualization in Sociology" (ARS)](https://www.annualreviews.org/content/journals/10.1146/annurev-soc-071312-145551). ([PDF mirror](https://kieranhealy.org/files/papers/data-visualization.pdf)).
-*   **Healy, Kieran. (2018).** [*Data Visualization: A Practical Introduction*]([https://kieranhealy.org/dataviz/](https://kjhealy.github.io/socviz/)).
+*   **Healy, Kieran. (2018).** [*Data Visualization: A Practical Introduction*](https://kjhealy.github.io/socviz/).
 *   **Matplotlib Colormap Guidance:** [Choosing Colormaps in Matplotlib](https://matplotlib.org/stable/users/explain/colors/colormaps.html) 
 *   **Python Data Science Handbook:** [Colorbars/colormaps primer](https://jakevdp.github.io/PythonDataScienceHandbook/04.07-customizing-colorbars.html).
 *   **Historical Inspiration:** W.E.B. [Du Bois’s groundbreaking work](https://www.smithsonianmag.com/history/first-time-together-and-color-book-displays-web-du-bois-visionary-infographics-180970826/) using of visualization alongside fieldwork and surveys (Battle-Baptiste and Rusert 2018; Du Bois 1900). 
@@ -376,7 +381,6 @@ Important for ethical dissemination and archiving of sensitive data (e.g., inter
 *   **Blogs and Perspectives (Corey M. Abramson):**
     *   [General Resources](https://cmabramson.com/resources)
     *   [From Carbon Paper to Code: Crafting Sociology in an Age of AI](https://computationalethnography.org/writing/from-carbon-paper-to-code/) (Contexts Blog, 2024)
-    *   [A Silicon Cage? Qualitative Research in the Era of AI](https://www.cultureofmedicine.org/blog/a-silicon-cage-qualitative-research-in-the-era-of-ai) (Culture of Medicine Blog)
 *   **Laura K. Nelson (Computational Grounded Theory):**
     *   [Homepage](https://www.lauraknelson.com/)
     *   [CGT article page](https://www.lauraknelson.com/publication/computational-grounded-theory/)
@@ -385,7 +389,7 @@ Important for ethical dissemination and archiving of sensitive data (e.g., inter
 
 Resources for integrating traditional Computer-Assisted Qualitative Data Analysis Software (CAQDAS) with Python workflows.
 
-*   **CMAP QDPX Converter (CEL):** [Convert QDPX/REFI-QDA exports to CMAP-schema CSV](https://github.com/Computational-Ethnography-Lab/cmap_qdpx_converter) — turns ATLAS.ti / NVivo / MAXQDA coded exports into analysis-ready CSV for the CMAP workflow (Abramson et al. 2026).
+*   **CMAP QDPX Converter (CEL):** [QDPX converter](https://github.com/Computational-Ethnography-Lab/cmap_qdpx_converter) — converts qualitative data analysis (QDA) software files (ATLAS.ti, NVivo, and similar) to and from a computational data frame for CSS analysis and the CMAP toolkit.
 *   **CAQDAS Networking Project (Surrey):** [Main Site](https://www.surrey.ac.uk/computer-assisted-qualitative-data-analysis).
 *   **Choosing a CAQDAS package:** [Guide](https://www.surrey.ac.uk/computer-assisted-qualitative-data-analysis/resources/choosing-appropriate-caqdas-package).
 *   **Qualitative coding (computationally) simplified**:[blog](https://cmabramson.com/resources/f/qualitative-coding-simplified)  
@@ -445,7 +449,7 @@ Lamont, Michèle and Patricia White (Eds.). 2008. *Workshop on Interdisciplinary
 
 Nelson, Laura K. 2020. “Computational Grounded Theory: A Methodological Framework.” *Sociological Methods & Research* 49(1):3–42. [https://doi.org/10.1177/0049124117729703](https://doi.org/10.1177/0049124117729703).
 
-Pardo-Guerra, Juan Pablo, and Prithviraj Pahwa. 2022. “The Extended Computational Case Method: A Framework for Research Design.” *Sociological Methods & Research* 51(4):1826–1867. https://doi.org/10.1177/00491241221122616. Preprint: [SocArXiv]. (https://osf.io/preprints/socarxiv/7dph4)
+Pardo-Guerra, Juan Pablo, and Prithviraj Pahwa. 2022. “The Extended Computational Case Method: A Framework for Research Design.” *Sociological Methods & Research* 51(4):1826–1867. https://doi.org/10.1177/00491241221122616. Preprint: [SocArXiv](https://osf.io/preprints/socarxiv/7dph4).
 
 Small, Mario Luis. 2011. “How to Conduct a Mixed Methods Study: Recent Trends in a Rapidly Growing Literature.” *Annual Review of Sociology* 37(1):57–86. [https://doi.org/10.1146/annurev.soc.012809.102657](https://doi.org/10.1146/annurev.soc.012809.102657).  
 
@@ -479,7 +483,7 @@ Hanson, Kenneth R., and Nicholas Theis. 2024. “Networked Participants, Network
 
 Li, Zhuofan, and Corey M. Abramson. 2025. “Ethnography and Machine Learning: Synergies and New Directions.” Pp. 245–272 in *The Oxford Handbook of the Sociology of Machine Learning*, edited by C. Borch and J. P. Pardo-Guerra. Oxford: Oxford University Press. Preprint: [https://doi.org/10.48550/arXiv.2412.06087](https://doi.org/10.48550/arXiv.2412.06087).
 
-Li, Zhuofan, Daniel Dohan, and Corey M. Abramson. 2021. “Qualitative Coding in the Computational Era: A Hybrid Approach to Improve Reliability and Reduce Effort for Coding Ethnographic Interviews.” *Socius* 7.[https://doi.org/10.1177/23780231211041293](https://osf.io/preprints/socarxiv/gpr4n_v1)).
+Li, Zhuofan, Daniel Dohan, and Corey M. Abramson. 2021. “Qualitative Coding in the Computational Era: A Hybrid Approach to Improve Reliability and Reduce Effort for Coding Ethnographic Interviews.” *Socius* 7. [https://doi.org/10.1177/23780231211041293](https://osf.io/preprints/socarxiv/gpr4n_v1).
 
 ### Computational Social Science (CSS) and Text Analysis Methods
 
@@ -489,7 +493,7 @@ DiMaggio, Paul. 2015. “Adapting Computational Text Analysis to Social Science 
 
 Grimmer, Justin, and Brandon M. Stewart. 2013. “Text as Data: The Promise and Pitfalls of Automatic Content Analysis Methods for Political Texts.” *Political Analysis* 21(3):267–97. [https://doi.org/10.1093/pan/mps028](https://doi.org/10.1093/pan/mps028).
 
-Grimmer, Justin, Margaret E. Roberts, and Brandon M. Stewart. 2022. *Text as Data: A New Framework for Machine Learning and the Social Sciences*. Princeton, NJ: Princeton University Press. [book](https://press.princeton.edu/books/hardcover/9780691207544/text-as-data?srsltid=AfmBOopMdxZW6nzRGVF-ez56a7XR_gMqcVmLyJQ3TOw56etBrdg-OeVX)).
+Grimmer, Justin, Margaret E. Roberts, and Brandon M. Stewart. 2022. *Text as Data: A New Framework for Machine Learning and the Social Sciences*. Princeton, NJ: Princeton University Press. [book](https://press.princeton.edu/books/hardcover/9780691207544/text-as-data?srsltid=AfmBOopMdxZW6nzRGVF-ez56a7XR_gMqcVmLyJQ3TOw56etBrdg-OeVX).
 
 Roberts, Margaret E., Brandon M. Stewart, and Dustin Tingley. 2019. “stm: An R Package for Structural Topic Models.” *Journal of Statistical Software* 91(2):1–40. [https://doi.org/10.18637/jss.v091.i02](https://doi.org/10.18637/jss.v091.i02).
 
@@ -497,7 +501,7 @@ Salganik, Matthew J. 2017. *Bit by Bit: Social Research in the Digital Age*. Pri
 
 ### Data Visualization and Tools
 
-Abramson, Corey M. and Yuhan (Victoria) Nian. 2025. *CMAP Visualization Toolkit* (v0.9.4b) [Software and Notebook]. Computational Ethnography Lab. [https://doi.org/10.5281/zenodo.17162829](https://doi.org/10.5281/zenodo.17162829). (Repo: [https://github.com/Computational-Ethnography-Lab/cmap\_visualization\_toolkit](https://github.com/Computational-Ethnography-Lab/cmap_visualization_toolkit)).
+Abramson, Corey M. and Yuhan (Victoria) Nian. 2025. *CMAP Visualization Toolkit* (v0.9.6) [Software and Notebook]. Computational Ethnography Lab. [https://doi.org/10.5281/zenodo.17162829](https://doi.org/10.5281/zenodo.17162829). (Repo: [https://github.com/Computational-Ethnography-Lab/cmap\_visualization\_toolkit](https://github.com/Computational-Ethnography-Lab/cmap_visualization_toolkit)).
 
 Battle-Baptiste, Whitney, and Britt Rusert (Eds.). 2018. *W. E. B. Du Bois’s Data Portraits: Visualizing Black America*. New York: Princeton Architectural Press. [https://doi.org/10.5040/9781621536830](https://doi.org/10.5040/9781621536830).
 

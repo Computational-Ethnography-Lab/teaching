@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://github.com/Computational-Ethnography-Lab" target="_blank">
-    <img src="https://github.com/Computational-Ethnography-Lab/.github/raw/95529a5a1ffa938274ac5b4b912dbf99e26fd572/profile/images/lab_banner.jpg" alt="Computational Ethnography Lab Banner" width="100%">
+    <img src="https://raw.githubusercontent.com/Computational-Ethnography-Lab/.github/main/profile/images/lab_banner.jpg" alt="Computational Ethnography Lab Banner" width="100%">
   </a>
 </p>
 
