@@ -121,7 +121,7 @@ Qualitative data, is information-- often produced via in-depth methods such as p
 Analyzing qualitative data computationally, without reduction to numbers alone, can take various forms depending on the research paradigm, ethnographic tradition or approach to combining methods:
 *   **Computational Ethnography:** is one  approach that uses a pragmatic mixed methods approach.
 > CE combines in-depth analysis of text data produced in  qualitative research—such as ethnographic field notes, interview transcripts, historical documents, or web posts—with tools for pattern analysis and visualization. This approach maintains a focus on situating meaning and behavior in real-world contexts, while integrating tools from computational social science (CSS) to identify and verify patterns (and engage with alternatives and counterfactuals).
-> A core focus is empirically connecting levels of analysis—alternating between aggregate patterns and granular details— like connecting 'maps' and 'street views'-- in a map program on your phone to get a more hollistic picture of geography. Sociologically, this has precedent in work to link [biography and history](https://contexts.org/blog/soc-ai/), chart [dualities](https://www.rsfjournal.org/content/10/5/34), link [objective structures and subjectivity](https://www.hup.harvard.edu/books/9780674212770)-- while maintaining the contextual depth and precision of systematic qualitative work (Abramson et al. 2018; Li and Abramson 2025).
+> A core focus is empirically connecting levels of analysis—alternating between aggregate patterns and granular details— like connecting 'maps' and 'street views'-- in a map program on your phone to get a more hollistic picture of geography. Sociologically, this has precedent in work to link [biography and history](https://computationalethnography.org/writing/from-carbon-paper-to-code/), chart [dualities](https://www.rsfjournal.org/content/10/5/34), link [objective structures and subjectivity](https://www.hup.harvard.edu/books/9780674212770)-- while maintaining the contextual depth and precision of systematic qualitative work (Abramson et al. 2018; Li and Abramson 2025).
 
 *   **The Text as Data Framework:** A structured approach common in Computational Social Science (CSS) that iterates between **Representation → Discovery → Measurement → Prediction → Causal Inference** (Grimmer, Roberts & Stewart 2022). This helps define the *Quantity of Interest* (QoI) and emphasizes validation (Grimmer and Stewart 2013).
 *   **Scaling Up ↔ Scaling Down**: A mixed-methods strategy of using models to map the terrain and identify aggregate patterns (Scaling Up), and then returning to close reading for interpretation and contextual depth (Scaling Down) (Breiger 2015). This emphasizes the necessity of human validation when interpreting models (Chang et al. 2009, "Reading Tea Leaves"). This is seen in both deep readings of big data, and growing large-scale qualitative studies that combine systematic sampling to facilitate broader reach, subsets, and comparison. 
@@ -375,7 +375,7 @@ Important for ethical dissemination and archiving of sensitive data (e.g., inter
     *   [GitHub Organization](https://github.com/Computational-Ethnography-Lab/)
 *   **Blogs and Perspectives (Corey M. Abramson):**
     *   [General Resources](https://cmabramson.com/resources)
-    *   [From Carbon Paper to Code: Crafting Sociology in an Age of AI](https://contexts.org/blog/soc-ai/) (Contexts Blog, 2024)
+    *   [From Carbon Paper to Code: Crafting Sociology in an Age of AI](https://computationalethnography.org/writing/from-carbon-paper-to-code/) (Contexts Blog, 2024)
     *   [A Silicon Cage? Qualitative Research in the Era of AI](https://www.cultureofmedicine.org/blog/a-silicon-cage-qualitative-research-in-the-era-of-ai) (Culture of Medicine Blog)
 *   **Laura K. Nelson (Computational Grounded Theory):**
     *   [Homepage](https://www.lauraknelson.com/)
@@ -431,7 +431,7 @@ Resources for integrating traditional Computer-Assisted Qualitative Data Analysi
 
 ### Frameworks, Pragmatic Approaches, and Mixed Methods
 
-Abramson, Corey M. 2024. “From Carbon Paper to Code: Crafting Sociology in an Age of AI.” *Contexts* Blog. Retrieved September 25, 2025 ([https://contexts.org/blog/soc-ai/](https://contexts.org/blog/soc-ai/)).
+Abramson, Corey M. 2024. “From Carbon Paper to Code: Crafting Sociology in an Age of AI.” *Contexts* Blog. Retrieved September 25, 2025 ([https://computationalethnography.org/writing/from-carbon-paper-to-code/](https://computationalethnography.org/writing/from-carbon-paper-to-code/)).
 
 Abramson, Corey M., Tara Prendergast, Zhuofan Li, and Daniel Dohan. 2026. “Qualitative Research in an Era of Artificial Intelligence: A Pragmatic Approach to Data Analysis, Workflow, and Computation.” *Annual Review of Sociology* 52(1):35–61. [https://doi.org/10.1146/annurev-soc-011824-104836](https://doi.org/10.1146/annurev-soc-011824-104836).
 
