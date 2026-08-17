@@ -381,7 +381,6 @@ Important for ethical dissemination and archiving of sensitive data (e.g., inter
 *   **Blogs and Perspectives (Corey M. Abramson):**
     *   [General Resources](https://cmabramson.com/resources)
     *   [From Carbon Paper to Code: Crafting Sociology in an Age of AI](https://computationalethnography.org/writing/from-carbon-paper-to-code/) (Contexts Blog, 2024)
-    *   A Silicon Cage? Qualitative Research in the Era of AI (Culture of Medicine Blog)
 *   **Laura K. Nelson (Computational Grounded Theory):**
     *   [Homepage](https://www.lauraknelson.com/)
     *   [CGT article page](https://www.lauraknelson.com/publication/computational-grounded-theory/)
@@ -390,7 +389,7 @@ Important for ethical dissemination and archiving of sensitive data (e.g., inter
 
 Resources for integrating traditional Computer-Assisted Qualitative Data Analysis Software (CAQDAS) with Python workflows.
 
-*   **CMAP QDPX Converter (CEL):** [QDPX converter](https://github.com/Computational-Ethnography-Lab/cmap_qdpx_converter) — converts QDA software files to and from a computational data frame for CSS analysis and the CMAP toolkit.
+*   **CMAP QDPX Converter (CEL):** [QDPX converter](https://github.com/Computational-Ethnography-Lab/cmap_qdpx_converter) — converts qualitative data analysis (QDA) software files (ATLAS.ti, NVivo, and similar) to and from a computational data frame for CSS analysis and the CMAP toolkit.
 *   **CAQDAS Networking Project (Surrey):** [Main Site](https://www.surrey.ac.uk/computer-assisted-qualitative-data-analysis).
 *   **Choosing a CAQDAS package:** [Guide](https://www.surrey.ac.uk/computer-assisted-qualitative-data-analysis/resources/choosing-appropriate-caqdas-package).
 *   **Qualitative coding (computationally) simplified**:[blog](https://cmabramson.com/resources/f/qualitative-coding-simplified)  
