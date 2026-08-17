@@ -390,7 +390,7 @@ Important for ethical dissemination and archiving of sensitive data (e.g., inter
 
 Resources for integrating traditional Computer-Assisted Qualitative Data Analysis Software (CAQDAS) with Python workflows.
 
-*   **CMAP QDPX Converter (CEL):** [Convert QDPX/REFI-QDA exports to CMAP-schema CSV](https://github.com/Computational-Ethnography-Lab/cmap_qdpx_converter) — turns ATLAS.ti / NVivo / MAXQDA coded exports into analysis-ready CSV for the CMAP workflow (Abramson et al. 2026).
+*   **CMAP QDPX Converter (CEL):** [QDPX converter](https://github.com/Computational-Ethnography-Lab/cmap_qdpx_converter) — converts QDA software files to and from a computational data frame for CSS analysis and the CMAP toolkit.
 *   **CAQDAS Networking Project (Surrey):** [Main Site](https://www.surrey.ac.uk/computer-assisted-qualitative-data-analysis).
 *   **Choosing a CAQDAS package:** [Guide](https://www.surrey.ac.uk/computer-assisted-qualitative-data-analysis/resources/choosing-appropriate-caqdas-package).
 *   **Qualitative coding (computationally) simplified**:[blog](https://cmabramson.com/resources/f/qualitative-coding-simplified)  
