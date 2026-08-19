@@ -6,77 +6,47 @@
 
 # Computational Analysis for Qualitative Data: Workflow and Visualization Resources
 
-This repository provides an overview, workflow summaries, and practical resources for integrating computational text analysis—primarily using Python—with qualitative and historical research methods.  
+This repository provides an overview, workflow summaries, and practical resources for learning to integrate computational social science techniques—primarily using Python—with qualitative and historical research methods.  
 
 It covers tools and approaches ranging from basic data organization and visualization to advanced machine learning integration, emphasizing a [pragmatic approach](https://www.annualreviews.org/content/journals/10.1146/annurev-soc-011824-104836) to social science research drawing on a recent Annual Review of Sociology article (Abramson et al. 2026).  
 
 The repository is a work in progress, designed to support learning. It is in its early stages, so please send resources or thoughts (but not hate-mail) to corey.abramson@rice.edu.  
 
-You can read a related wiki with more links on [AI in social science](https://github.com/Computational-Ethnography-Lab/ai-wiki).
-
 ### A Few Key Links
-[AI wiki](https://github.com/Computational-Ethnography-Lab/ai-wiki)  
-[CMAP visualization toolkit](https://github.com/Computational-Ethnography-Lab/cmap_visualization_toolkit) ([Colab](https://tinyurl.com/cmapoctober5))  
-[From Carbon Paper to Code: Crafting Sociology in an Age of AI](https://computationalethnography.org/writing/from-carbon-paper-to-code/) (Contexts)  
-[Lab home - links to everything](https://github.com/Computational-Ethnography-Lab)  
-[QDPX converter](https://github.com/Computational-Ethnography-Lab/cmap_qdpx_converter)  
-[Intro to scaled qualitative analysis](https://github.com/Corey-Abramson/Intro-to-Scaled-Qualitative-Analysis) ([Colab](https://colab.research.google.com/github/Corey-Abramson/Intro-to-Scaled-Qualitative-Analysis/blob/main/notebook/intro_scaled_qualitative_analysis.ipynb)). Public notebook for a scaled qualitative workflow (normalize, read a coded corpus, dictionary/ML/LLM lanes, visualize) on public demo data, with a Colab option. Bundled IEEE oral-history text has its own use restriction.  
-[Replication code](https://github.com/Computational-Ethnography-Lab/replication_code)  
-[Some general Qualitative Data Analysis resources](https://cmabramson.com/resources)  
-[Review Paper](https://www.annualreviews.org/content/journals/10.1146/annurev-soc-011824-104836) on Pragmatic Approach to Qualitative Research and Computational Social Science
-R to python cheat sheets, not mine but useful if you use R!: [1](https://github.com/SrihariPramod/R_vs_Python_Cheatsheet/blob/master/R_vs_Python.pdf), [2](https://datascientyst.com/pandas-vs-r-cheat-sheet/#6-pandas-vs-r-comparison)  
+- [CMAP visualization toolkit](https://github.com/Computational-Ethnography-Lab/cmap_visualization_toolkit) ([Colab](https://tinyurl.com/cmapoctober5)); includes tools and workflows used in this project
+- [AI wiki](https://github.com/Computational-Ethnography-Lab/ai-wiki) — more links on AI in social science
+- [From Carbon Paper to Code: Crafting Sociology in an Age of AI](https://computationalethnography.org/writing/from-carbon-paper-to-code/) (Contexts)
+- [QDPX converter](https://github.com/Computational-Ethnography-Lab/cmap_qdpx_converter) — Pilot code. Converts between QDPX and a computational dataframe in a spreadsheet (CSV).
+- [Replication code for visuals](https://github.com/Computational-Ethnography-Lab/replication_code)
+- [Older general Qualitative Data Analysis resources](https://cmabramson.com/resources)
+- [Intro to scaled qualitative analysis](https://github.com/Corey-Abramson/Intro-to-Scaled-Qualitative-Analysis) ([Colab](https://colab.research.google.com/github/Corey-Abramson/Intro-to-Scaled-Qualitative-Analysis/blob/main/notebook/intro_scaled_qualitative_analysis.ipynb)). Public notebook for a scaled qualitative workflow (normalize, read a coded corpus, dictionary/ML/LLM lanes, visualize) on public demo data, with a Colab option. Pilot example from [Stanford AIMS](https://casbs.stanford.edu/programs/summer-institutes/institute-ai-methods-social-scientists-aims) at the Center for Advanced Study in the Behavioral Sciences. Bundled IEEE oral-history text has its own use restriction.
 
 ### Author/Instructor/Curator
 **Corey M. Abramson, Ph.D.** 
 
 Professor of Sociology, [Rice University](https://profiles.rice.edu/faculty/corey-m-abramson)  
-PI, Computational Ethnography Lab, [GitHub](https://github.com/Computational-Ethnography-Lab/)  
-Co-Director, [Center for Computational Insights on Inequality and Society (CIISR)](https://ciisr.rice.edu/)  
-Faculty, [Data Science Initiative, Rice](https://datascience.rice.edu/research/methods-development)  
-Core Faculty, Medical Cultures Lab, UC San Francisco  
+PI, Computational Ethnography Lab ([GitHub](https://github.com/Computational-Ethnography-Lab/))  
+Co-Director, [Center for Computational Insights on Inequality and Society at Rice (CIISR)](https://ciisr.rice.edu/)  
+Faculty, [Data Science: Machine Learning, NLP, Statistics, Health](https://datascience.rice.edu/research/methods-development)  
+Member, [Institute of Health Resilience and Innovation](https://ihri.rice.edu/)  
+Member, [Ken Kennedy Institute](https://kenkennedy.rice.edu/)  
+Faculty, [Brain and Society Initiative, Rice Brain Institute](https://brain.rice.edu/brain-and-society/faculty)  
+Faculty, [Medical Cultures Lab, UC San Francisco](https://www.cultureofmedicine.org/)  
 Affiliated Faculty, [Center for Ethnographic Research, UC Berkeley](https://issi.berkeley.edu/cer/people)  
-Affiliated Faculty, [Institute of Health Resilience and Innovation, Rice](https://ihri.rice.edu/)  
-Affiliated Faculty, [Ken Kennedy Institute, Responsible AI and Computing, Rice](https://kenkennedy.rice.edu/people-affiliates)  
-Fellow, [Center for Advanced Study in the Behavioral Sciences (CASBS)](https://casbs.stanford.edu/), Stanford University (2026–27)  
 
-**Sociology**: stratification and inequality, health and medicine, culture, aging, networks, methodology (qualitative, computational and mixed methods), theory  
-**Health policy**: aging, alzheimer's disease and related dementias, social determinants of health, decision making, end of life, methodology (mixed-methods, big "qual" data)  
+_2026–27 CASBS Fellow, [Stanford University, Center for Advanced Study in the Behavioral Sciences (CASBS)](https://casbs.stanford.edu/)_
+
+**Sociology**: social stratification; health and medicine; culture; aging and the life course; comparative ethnography; computational social science (machine learning, QDA, computational text analysis, LLM applications in social science, "big" qualitative data); mixed methods; methodology; theory  
+**Health policy**: aging, Alzheimer's disease and related dementias, health disparities, end of life, artificial intelligence
 
 <div align="center">
   <img src="https://raw.githubusercontent.com/Computational-Ethnography-Lab/.github/main/profile/images/fieldwork_photo.jpg">
   <p><em>"Sunday": A photo from Professor Abramson’s fieldwork.</em></p>
 </div>
 
-
-**Key Goals:**
-
-> - **Introduce workflow and computational tools for analyzing text.**
-> - **Facilitate social-scientific analyses for varied projects.**
-> - **Allow combining pattern-finding with deep reading of qualitative information.**
-> - **Keep links from patterns and models, back to original context (quotes, fieldnotes, transcripts).**
-> - **Prioritize transparency, accuracy, and human insight alongside purposeful technology use (study design, analysis, validation, de-ID, open sourcing).**
-> - **Introduce flexible visualization options usable across projects and data types**
-See: [Computational Ethnography Lab (CEL) Home](https://computationalethnography.org/) for more background and tools 
-
-<p>In addition to checking out this page and the GitHub repo, you might also find the following useful background:</p>
-
-<p><strong>Getting set up.</strong> These short lab videos cover the tooling, in the order you need it. The Colab route below needs none of them, so skip ahead if you just want to try the toolkit.</p>
-<ul>
-    <li>Installing Anaconda, to run Python on your own machine, by Rice grad Jakira Silas (<a class="inline_disabled" href="https://youtu.be/mP-FOogmJuM" target="_blank" rel="noopener">link</a>). # Start here if you have not used Python locally before.</li>
-    <li>An introduction to GitHub, what it is and how the lab uses it, by Rice University Undergrad Alejandro Hernandez Espinoza (<a class="inline_disabled" href="https://youtu.be/JjYRAsXUL54" target="_blank" rel="noopener">link</a>).</li>
-    <li>Cloning a repository from GitHub, to get the code onto your machine, by Rice grad Jakira Silas (<a class="inline_disabled" href="https://youtu.be/dnsLjgckl4g" target="_blank" rel="noopener">link</a>).</li>
-</ul>
-
-<p><strong>Using the toolkit and further reading.</strong></p>
-<ul>
-    <li>This very useful video by Rice grad Jakira Silas introducing how to use the toolkit in google collab (<a class="inline_disabled" href="https://vimeo.com/1122226315" target="_blank" rel="noopener">link</a>). # Highly recommended if you have not used python/jupyter/google colab before.</li>
-    <li>This Annual Review of Sociology article on combinations of qualitative and computational social science, which also has very detailed workflow (<a class="inline_disabled" href="https://www.annualreviews.org/content/journals/10.1146/annurev-soc-011824-104836" target="_blank" rel="noopener">link</a>)</li>
-    <li>This pre-print which discusses data formatting and processing in detail, focused on field methods and making interviews/fieldnotes usable for computational analysis (<a class="inline_disabled" href="https://osf.io/preprints/osf/jvpbw_v1" target="_blank" rel="noopener">link</a>)</li>
-    <li><span style="font-family: inherit; font-size: 1rem;">This introduction to machine learning for qualitative research, focused on scaling <a class="inline_disabled" href="https://cmabramson.com/resources/f/qualitative-coding-simplified" target="_blank" rel="noopener">coding</a> (e.g. adding information like #morality_talk to annotate text), and some related aspects of workflow using interviews (from ASA 2022) (l<a class="inline_disabled" href="https://colab.research.google.com/drive/1qMwvjaY6DKQ-jxFTyXt3S3qNQdpV_S9n?usp=sharing" target="_blank" rel="noopener">ink</a>)</span></li>
-</ul>
-
 ## Table of Contents
 
+*   [Guided Learning and Resources](#guided-learning-and-resources)
 *   [I. General Premise: A Pragmatic Mixed-Methods Approach](#i-general-premise-a-pragmatic-mixed-methods-approach)
     *   [The Pragmatic Approach](#the-pragmatic-approach)
     *   [Key Strategies and Frameworks](#key-strategies-and-frameworks)
@@ -106,6 +76,37 @@ See: [Computational Ethnography Lab (CEL) Home](https://computationalethnography
 
 ---
 
+## Guided Learning and Resources
+
+**Key Goals:**
+
+> - **Introduce workflow and computational tools for analyzing qualitative data.**
+> - **Facilitate social-scientific analyses for varied projects.**
+> - **Allow combining pattern-finding with deep reading of qualitative information.**
+> - **Keep links from patterns and models, back to original context (quotes, fieldnotes, transcripts).**
+> - **Prioritize transparency, accuracy, and human insight alongside purposeful technology use (study design, analysis, validation, de-ID, open sourcing).**
+> - **Introduce flexible visualization options usable across projects and data types.**
+See: [Computational Ethnography Lab (CEL) Home](https://computationalethnography.org/) for more background and tools 
+
+<p>In addition to checking out this page and the GitHub repo, you might also find the following useful background:</p>
+
+<p><strong>Getting set up.</strong> These short lab videos cover the tooling, in the order you need it. The Colab route below needs none of them, so skip ahead if you just want to try the toolkit.</p>
+<ul>
+    <li>Installing Anaconda, to run Python on your own machine, by Rice grad Jakira Silas (<a class="inline_disabled" href="https://youtu.be/mP-FOogmJuM" target="_blank" rel="noopener">link</a>). # Start here if you have not used Python locally before.</li>
+    <li>An introduction to GitHub, what it is and how the lab uses it, by Rice University Undergrad Alejandro Hernandez Espinoza (<a class="inline_disabled" href="https://youtu.be/JjYRAsXUL54" target="_blank" rel="noopener">link</a>).</li>
+    <li>Cloning a repository from GitHub, to get the code onto your machine, by Rice grad Jakira Silas (<a class="inline_disabled" href="https://youtu.be/dnsLjgckl4g" target="_blank" rel="noopener">link</a>).</li>
+</ul>
+
+<p><strong>Using the toolkit and further reading.</strong></p>
+<ul>
+    <li>This very useful video by Rice grad Jakira Silas introducing how to use the toolkit in Google Colab (<a class="inline_disabled" href="https://vimeo.com/1122226315" target="_blank" rel="noopener">link</a>). # Highly recommended if you have not used Python/Jupyter/Google Colab before.</li>
+    <li>This Annual Review of Sociology article on combinations of qualitative and computational social science, which also has very detailed workflow (<a class="inline_disabled" href="https://www.annualreviews.org/content/journals/10.1146/annurev-soc-011824-104836" target="_blank" rel="noopener">link</a>)</li>
+    <li>This pre-print which discusses data formatting and processing in detail, focused on field methods and making interviews/fieldnotes usable for computational analysis (<a class="inline_disabled" href="https://osf.io/preprints/osf/jvpbw_v1" target="_blank" rel="noopener">link</a>)</li>
+    <li><span style="font-family: inherit; font-size: 1rem;">This introduction to machine learning for qualitative research, focused on scaling <a class="inline_disabled" href="https://cmabramson.com/resources/f/qualitative-coding-simplified" target="_blank" rel="noopener">coding</a> (e.g. adding information like #morality_talk to annotate text), and some related aspects of workflow using interviews (from ASA 2022) (<a class="inline_disabled" href="https://colab.research.google.com/drive/1qMwvjaY6DKQ-jxFTyXt3S3qNQdpV_S9n?usp=sharing" target="_blank" rel="noopener">link</a>)</span></li>
+</ul>
+
+---
+
 ## I. General Premise: A Pragmatic Mixed-Methods Approach
 
 ### The Pragmatic Approach
@@ -114,19 +115,19 @@ The foundation of this overview is a _pragmatic approach_ to computational tools
 
 This approach builds on long traditions in the social sciences that utilize multi-method approaches, triangulation, and pragmatic inquiry to connect different levels of analysis and generate insights on topics of scientific and practical importance (e.g., Du Bois 1899; Small 2011; Lamont and White 2008; Abramson et al. 2018).
 
-Computational tools are used here to expand human inquiry, reasoning and  analysis. This is consistent with prior technology like statistical computing, qualitative data analysis (QDA) software and data visualization going back decades (Dohan and Sánchez-Jankowski 1998). It also recognizes, computation is already embedded in modern research and daily life—from CAQDAS software to search algorithms—and leveraging these technologies thoughtfully for imaginative social inquiry can aid both social science, and ensure emergent technologies can be used in ways that contribute to understanding pressing social issues (Abramson 2024).
+Computational tools are used here to expand human inquiry, reasoning and analysis. This is consistent with prior technology like statistical computing, qualitative data analysis (QDA) software and data visualization going back decades (Dohan and Sánchez-Jankowski 1998). It also recognizes, computation is already embedded in modern research and daily life—from CAQDAS software to search algorithms—and leveraging these technologies thoughtfully for imaginative social inquiry can aid both social science, and ensure emergent technologies can be used in ways that contribute to understanding pressing social issues (Abramson 2024).
 
 Yet, even if you don't agree, knowing more about these tools and their logics-- particularly as their reach expands-- provides insights into changing fields. 
 
-Much of this uses python, as it is a free open-source programing language that is both extremely flexible, and adaptable for computational text analysis, machine learning, and visualization (alongside statistics and myriad other applications). There are also links to R, for stats and data visualization. Both languages are important in computational social science work.
+Much of this uses Python, as it is a free open-source programming language that is both extremely flexible, and adaptable for computational text analysis, machine learning, and visualization (alongside statistics and myriad other applications). There are also links to R, for stats and data visualization. Both languages are important in computational social science work.
 
 ### Key Strategies and Frameworks
-Qualitative data, is information-- often produced via in-depth methods such as participant observation, in -depth interviews, and historical analyses-- that was generated or collected with the intent of not being  reducible to numeric form alone (Abramson et  al. 2026). 
+Qualitative data is information-- often produced via in-depth methods such as participant observation, in-depth interviews, and historical analyses-- that was generated or collected with the intent of not being reducible to numeric form alone (Abramson et al. 2026). 
 
 Analyzing qualitative data computationally, without reduction to numbers alone, can take various forms depending on the research paradigm, ethnographic tradition or approach to combining methods:
-*   **Computational Ethnography:** is one  approach that uses a pragmatic mixed methods approach.
-> CE combines in-depth analysis of text data produced in  qualitative research—such as ethnographic field notes, interview transcripts, historical documents, or web posts—with tools for pattern analysis and visualization. This approach maintains a focus on situating meaning and behavior in real-world contexts, while integrating tools from computational social science (CSS) to identify and verify patterns (and engage with alternatives and counterfactuals).
-> A core focus is empirically connecting levels of analysis—alternating between aggregate patterns and granular details— like connecting 'maps' and 'street views'-- in a map program on your phone to get a more hollistic picture of geography. Sociologically, this has precedent in work to link [biography and history](https://computationalethnography.org/writing/from-carbon-paper-to-code/), chart [dualities](https://www.rsfjournal.org/content/10/5/34), link [objective structures and subjectivity](https://www.hup.harvard.edu/books/9780674212770)-- while maintaining the contextual depth and precision of systematic qualitative work (Abramson et al. 2018; Li and Abramson 2025).
+*   **Computational Ethnography:** is one approach that uses a pragmatic mixed methods approach.
+> CE combines in-depth analysis of text data produced in qualitative research—such as ethnographic field notes, interview transcripts, historical documents, or web posts—with tools for pattern analysis and visualization. This approach maintains a focus on situating meaning and behavior in real-world contexts, while integrating tools from computational social science (CSS) to identify and verify patterns (and engage with alternatives and counterfactuals).
+> A core focus is empirically connecting levels of analysis—alternating between aggregate patterns and granular details— like connecting 'maps' and 'street views'-- in a map program on your phone to get a more holistic picture of geography. Sociologically, this has precedent in work to link [biography and history](https://computationalethnography.org/writing/from-carbon-paper-to-code/), chart [inequalities in experiences of pain](https://www.rsfjournal.org/content/10/5/34), link [objective structures and subjectivity](https://www.hup.harvard.edu/books/9780674212770)-- while maintaining the contextual depth and precision of systematic qualitative work (Abramson et al. 2018; Li and Abramson 2025).
 
 *   **The Text as Data Framework:** A structured approach common in Computational Social Science (CSS) that iterates between **Representation → Discovery → Measurement → Prediction → Causal Inference** (Grimmer, Roberts & Stewart 2022). This helps define the *Quantity of Interest* (QoI) and emphasizes validation (Grimmer and Stewart 2013).
 *   **Scaling Up ↔ Scaling Down**: A mixed-methods strategy of using models to map the terrain and identify aggregate patterns (Scaling Up), and then returning to close reading for interpretation and contextual depth (Scaling Down) (Breiger 2015). This emphasizes the necessity of human validation when interpreting models (Chang et al. 2009, "Reading Tea Leaves"). This is seen in both deep readings of big data, and growing large-scale qualitative studies that combine systematic sampling to facilitate broader reach, subsets, and comparison. 
@@ -171,24 +172,27 @@ graph TD
       * Define population, sampling frame, and document units. Data sources can include transcribed interviews, ethnographic fieldnotes, historical documents, webscraped data, policy documents, administrative text, or open-ended survey responses. Record provenance and metadata.
       * *Python Tools:* `pandas` for manifests; `requests` + `beautifulsoup4` (web scraping), or API clients. Store as JSONL/CSV + raw text.
       * [Export](https://cmabramson.com/resources/f/sub-setting-qualitative-data-for-machine-learning) from QDA software, or integrate text into a data frame 
+        - To convert REFI-QDA `.qdpx` project files (exported from ATLAS.ti, NVivo, or MAXQDA) into the CMAP-compatible DataFrame/CSV format, use the [CMAP QDPX Converter](https://github.com/Computational-Ethnography-Lab/cmap_qdpx_converter). This free, open-source tool runs locally (no installation or third-party dependencies required) and preserves coded selections, codes, document groups (`data_group`), and metadata in the  CMAP schema. See the [GitHub repository](https://github.com/Computational-Ethnography-Lab/cmap_qdpx_converter) for instructions and citation information.
 3.  **Digitization and Processing (Data Wrangling)**
       * *Digitization (OCR & QA):* Convert PDFs/scans. Perform manual Quality Assurance (QA). Choose digitization to preserve meaningful structure (speaker turns, page breaks) for citation integrity.
       * *Processing:* Clean and format text into machine-readable and tabular formats (see [Schema](#data-schema-example-cmap) below). Data can be imported from QDA software or read directly from `.txt` (UTF-8) files. Tokenize/segment and normalize.
       * *Python Tools:* `pytesseract` (OCR); `spaCy` (normalization/tokenization).
 4.  **Representation**
       * Transform text into formats suitable for computational analysis.
-      * Choose representations (BOW/TF-IDF, dictionaries, embeddings) to fit the QoI. This involves visualizing patterns, combined with readings.
-      * *Python Tools:* `scikit-learn` vectorizers (DTM/TF-IDF); Hugging Face `transformers` (Embeddings).
+      * Choose representations (BOW/TF-IDF, dictionaries, embeddings) to fit the QoI. This may involve visualizing patterns, combined with readings.
+      * *Python Tools:* `scikit-learn` vectorizers (DTM/TF-IDF); Hugging Face `transformers`. See the [CMAP visualization toolkit](https://github.com/Computational-Ethnography-Lab/cmap_visualization_toolkit) for an example of text visualization. 
 5.  **Annotating and Linking**
       * *Annotating:* Build human system for indexing data. For instance, utilize a hybrid approach—combining automation (lists, machine learning) and human coding depending on scope and complexity (Abramson et al. 2026). This involves managing tradeoffs: while accuracy is key for a realist approach, time efficiency and identifying insights otherwise missed are also crucial considerations (Li et al. 2021).
       * *Entity tagging*: (persons/orgs/places) via `spaCy` NER.
-      * *Linking:* Join texts to variables in dataframe (site, time, treatment, demographics) for comparison and modeling. If useing qualitative software, or purposeful file naming, this can be done with minimal work (Li and ABramson 2025)[https://arxiv.org/pdf/2412.06087] 
+      * *Linking:* Join texts to variables in dataframe (site, time, treatment, demographics) for comparison and modeling. If using qualitative software, or purposeful file naming, this can be done with minimal work ([Li and Abramson 2025](https://arxiv.org/abs/2412.06087)).
       * *Python Tools:* `spaCy` NER; `pandas` (linking).
 6.  **Analysis, Modeling & Visualization**
-      * *Descriptions & Visualization:* LDA topics + human validation ("Reading Tea Leaves"); word-embeddings // cite boutlyine and Abramson et al. AVP pain paper  https://www.rsfjournal.org/content/rsfjss/10/5/34.full.pdf . Use visualization tools (e.g., CMAP) to explore patterns and comparisons (Abramson and Dohan 2015).
+      * *Descriptions & Visualization:* LDA topics + human validation ("Reading Tea Leaves"); word embeddings (Boutyline and Arseniev-Koehler 2025; Abramson, Li, Prendergast, and Sánchez-Jankowski 2024). Use visualization tools (e.g., CMAP) to explore patterns and comparisons (Abramson and Dohan 2015).
       * *Modeling:* Supervised coding/stance with `scikit-learn` baselines and transformers (BERT-class); report metrics, calibration, and error analysis. Combine unsupervised exploration (topics/clusters) with supervised measurement/prediction.
       * *Deep Reading & Interpretation:* Always return to exemplar passages to contextualize model patterns (scale down), examine disconfirming cases, update explanations to account for data while noting contextual limits.
-7.  **Dissemination and Archiving**
+7.  **Validation & Interpretation**
+      * Return to exemplar passages to contextualize model patterns (scale down), examine disconfirming cases, and update explanations while noting contextual limits (Chang et al. 2009; Breiger 2015). Pair computational patterns with close reading before treating a model as a measure.
+8.  **Dissemination and Archiving**
       * Reproducible Jupyter notebooks (see [workshop repo](#machine-learning-and-nlp-tutorials)), [CMAP visualizations](#visualization-the-cmap-toolkit), codebooks, curated quotes. Pair patterns + passages in presentation. Archive code/data where allowed; follow [de-identification guidance](#de-identification-nihhhs--open-tools) and document limits/ethics.
 
 <!-- ANCHOR: do not rename — linked from toolkit README, paper.md, and the notebook -->
@@ -197,7 +201,7 @@ graph TD
 For structured analysis and visualization (e.g., using the CMAP toolkit), data should be organized into a consistent tabular format (e.g., CSV or DataFrame). Below is an example schema:
 
 ```python
-# Updated schema with Python typing
+# schema with Python typing
 schema = {
     "project": str,         # List project
     "number": str,          # Position information
@@ -262,7 +266,7 @@ A key consideration is *how*—or *whether*—to integrate computational tools i
 4.  **Discovery (Pattern Finding):**
       * Utilizing unsupervised methods (e.g., topic modeling, clustering, visualization) to identify latent patterns, themes, or typologies that guide subsequent deep reading and theory development (Nelson 2020).
 5.  **Minimal/No Computation (The "Sociology of Computation"):**
-      * Deliberately choosing *not* to automate analysis when ethical considerations, highly specific contexts, small scale, or the nature of the inquiry make automation counterproductive or risky. Documenting the rationale for this choice is practical, given review-- explaining reflexivity and decisions has long been central to qualitative inquiry (Abramson et al. 2026;).
+      * Deliberately choosing *not* to automate analysis when ethical considerations, highly specific contexts, small scale, or the nature of the inquiry make automation counterproductive or risky. Documenting the rationale for this choice is practical, given review-- explaining reflexivity and decisions has long been central to qualitative inquiry (Abramson et al. 2026).
 
 [Return to Table of Contents](#table-of-contents)
 
@@ -272,7 +276,7 @@ A key consideration is *how*—or *whether*—to integrate computational tools i
 
 This section highlights Python-based resources developed for mixed-methods analysis, alongside general CSS tools, visualization guides, and conceptual resources.
 
-### Visualization: The CMAP Toolkit
+### Visualization Example: The CMAP Toolkit
 
 Visualization is powerful for exploring data, representing patterns, connecting levels of analysis, and testing emerging typologies, and facilitating comparison with various data types (Healy and Moody 2014; Abramson and Dohan 2015).
 
@@ -312,21 +316,23 @@ The toolkit supports granular analysis mirroring qualitative practices (at the l
     <div class="caption"><em>A word cloud with user-defined concept groups. (Source: CEL)</em></div>
   </div>
 
-[Tutorial video](https://player.vimeo.com/video/1122226315?badge=0&amp;autopause=0&amp)
+[Tutorial video](https://vimeo.com/1122226315)
 
 ### Machine Learning and NLP Tutorials
 
 *   **ASA 2022 Workshop — Intro to ML for Qualitative Research (w/Zhuofan Li), contains some python webscraping examples (with Li and Dohan):**
     *   [GitHub Repo](https://github.com/lizhuofan95/ASA2022_Workshop)
-    *   *Content:* Jupyter notebook examples using Python analyzing public interview data. Covers workflow from preparation to model training (including BERT) and validation, to parallel (Li, Dohan and ABramson 2021).
+    *   *Content:* Jupyter notebook examples using Python analyzing public interview data. Covers workflow from preparation to model training (including BERT) and validation, and the hybrid coding workflow in Li, Dohan, and Abramson (2021).
 *   **Python-focused CSS Introductions:**
     *   [GESIS CSS Methods Python](https://github.com/gesiscss/css_methods_python) (Notebooks introducing CSS methods using Python).
     *   [Awesome Computational Social Science](https://github.com/gesiscss/awesome-computational-social-science) (Curated list of resources).
 *   **Code companions for *Text as Data*** (Grimmer et al. 2022):
     *   Ornstein’s Text-as-Data course site (R code companion): [Site](https://joeornstein.github.io/text-as-data/) | [Repo](https://github.com/joeornstein/maymester-text-as-data)
+*   **If you use R and are adopting this Python workflow:** Python cheat sheets (not mine): [1](https://github.com/SrihariPramod/R_vs_Python_Cheatsheet/blob/master/R_vs_Python.pdf), [2](https://datascientyst.com/pandas-vs-r-cheat-sheet/#6-pandas-vs-r-comparison)
 *   **General Computational Social Science “how-to’s”:**
     *   SICSS (Summer Institutes in Computational Social Science): [Main Site](https://sicss.io/) | [Curriculum](https://sicss.io/curriculum)
     *   Salganik, *Bit by Bit* (book site, open chapters): [https://www.bitbybitbook.com/](https://www.bitbybitbook.com/)
+    *   Davidson, Computational Sociology course (R examples): [GitHub](https://github.com/t-davidson/computational-sociology)
 
 ### Core Python Packages & Docs
 
@@ -339,12 +345,12 @@ These libraries form the backbone of many Python-based text analysis workflows (
 *   **Natural Language Processing (NLP):**
     *   [**spaCy**](https://spacy.io/) (Tokenization/NER/dependencies/preprocessing).
     *   [**NLTK**](https://www.nltk.org/) (Natural Language Toolkit - general NLP tasks, stopwords, stemming).
-    *   [**gensim**](https://radimrehurek.com/gensim/) (LDA Topic modeling, word2vec/doc2vec- older, but low compute).
+    *   [**gensim**](https://radimrehurek.com/gensim/) (LDA Topic modeling, word2vec/doc2vec - older, but low compute).
 *   **Machine Learning and Embeddings:**
     *   [**scikit-learn**](https://scikit-learn.org/) (Vectorizers, traditional ML models, evaluation metrics, clustering).
     *   [**Hugging Face transformers**](https://huggingface.co/docs/transformers/index) (BERT-class models, embeddings, pipelines).
     *   [**Sentence-Transformers**](https://www.sbert.net/) (Easy methods for sentence, text, and image embeddings).
-    *   [**PyTorch**](https://pytorch.org/) (Deep learning framework, consider docker containers for complex programs to manage dependencies //add link).
+    *   [**PyTorch**](https://pytorch.org/) (Deep learning framework, consider docker containers for complex programs to manage dependencies).
 *   **Visualization:**
     *   [**Matplotlib**](https://matplotlib.org/) (Base plotting library).
     *   [**Seaborn**](https://seaborn.pydata.org/) (Statistical data visualization, heatmaps).
@@ -356,12 +362,13 @@ These libraries form the backbone of many Python-based text analysis workflows (
 
 ### Data Visualization Resources
 
-*   **Python Graphy Gallery:** [Charts by use, with code samples](https://python-graph-gallery.com/)
+*   **Python Graph Gallery:** [Charts by use, with code samples](https://python-graph-gallery.com/)
 *   **Healy & Moody (2014):** ["Data Visualization in Sociology" (ARS)](https://www.annualreviews.org/content/journals/10.1146/annurev-soc-071312-145551). ([PDF mirror](https://kieranhealy.org/files/papers/data-visualization.pdf)).
-*   **Healy, Kieran. (2018).** [*Data Visualization: A Practical Introduction*](https://kjhealy.github.io/socviz/).
+*   **Healy, Kieran. (2018).** [*Data Visualization: A Practical Introduction*](https://kjhealy.github.io/socviz/). Code: [GitHub](https://github.com/kjhealy/socviz)
+*   **Bail, *textnets* (R):** network visualization for text. [GitHub](https://github.com/cbail/textnets)
 *   **Matplotlib Colormap Guidance:** [Choosing Colormaps in Matplotlib](https://matplotlib.org/stable/users/explain/colors/colormaps.html) 
 *   **Python Data Science Handbook:** [Colorbars/colormaps primer](https://jakevdp.github.io/PythonDataScienceHandbook/04.07-customizing-colorbars.html).
-*   **Historical Inspiration:** W.E.B. [Du Bois’s groundbreaking work](https://www.smithsonianmag.com/history/first-time-together-and-color-book-displays-web-du-bois-visionary-infographics-180970826/) using of visualization alongside fieldwork and surveys (Battle-Baptiste and Rusert 2018; Du Bois 1900). 
+*   **Historical Inspiration:** W.E.B. [Du Bois’s groundbreaking work](https://www.smithsonianmag.com/history/first-time-together-and-color-book-displays-web-du-bois-visionary-infographics-180970826/) using visualization alongside fieldwork and surveys (Battle-Baptiste and Rusert 2018; Du Bois 1900). 
 *   **Color Blind Templates:** [P. Tol](https://sronpersonalpages.nl/~pault/)
 *   **Du Boisian Toolkit** [python, R, and more](https://www.dignityanddebt.org/projects/du-boisian-resources/) 
 
@@ -384,6 +391,7 @@ Important for ethical dissemination and archiving of sensitive data (e.g., inter
 *   **Laura K. Nelson (Computational Grounded Theory):**
     *   [Homepage](https://www.lauraknelson.com/)
     *   [CGT article page](https://www.lauraknelson.com/publication/computational-grounded-theory/)
+    *   [CGT replication code](https://github.com/lknelson/computational-grounded-theory)
 
 ### CAQDAS & Exporting QDA for Python
 
@@ -392,14 +400,14 @@ Resources for integrating traditional Computer-Assisted Qualitative Data Analysi
 *   **CMAP QDPX Converter (CEL):** [QDPX converter](https://github.com/Computational-Ethnography-Lab/cmap_qdpx_converter) — converts qualitative data analysis (QDA) software files (ATLAS.ti, NVivo, and similar) to and from a computational data frame for CSS analysis and the CMAP toolkit.
 *   **CAQDAS Networking Project (Surrey):** [Main Site](https://www.surrey.ac.uk/computer-assisted-qualitative-data-analysis).
 *   **Choosing a CAQDAS package:** [Guide](https://www.surrey.ac.uk/computer-assisted-qualitative-data-analysis/resources/choosing-appropriate-caqdas-package).
-*   **Qualitative coding (computationally) simplified**:[blog](https://cmabramson.com/resources/f/qualitative-coding-simplified)  
+*   **Qualitative coding (computationally) simplified**: [blog](https://cmabramson.com/resources/f/qualitative-coding-simplified)  
 *   **How-to Blog:** [Sub-setting Qualitative Data for Machine Learning or Export](https://cmabramson.com/resources/f/sub-setting-qualitative-data-for-machine-learning) (Discusses exporting QDA data / preparing for ML).
 *   **Workflow, File Naming, and General Guidance**: [Li and Abramson 2025](https://arxiv.org/abs/2412.06087)
 
 [Return to Table of Contents](#table-of-contents)
 
 ### Automations and Commercial Tools
-//In-progress//
+In progress.
 
 ---
 
@@ -432,6 +440,8 @@ Resources for integrating traditional Computer-Assisted Qualitative Data Analysi
 ## V. Bibliography
 
 *A curated topical reading list (ASA style, by topic). In progress — suggestions welcome.*
+
+See also the [wiki on AI and social sciences](https://github.com/Computational-Ethnography-Lab/ai-wiki), for AI-specific examples.
 
 ### Frameworks, Pragmatic Approaches, and Mixed Methods
 
@@ -469,6 +479,8 @@ Abramson, Corey M. and Daniel Dohan. 2015. “Beyond Text: Using Arrays to Repre
 
 Abramson, Corey M., Jacqueline Joslyn, Katharine A. Rendle, Sarah B. Garrett, and Daniel Dohan. 2018. “The Promises of Computational Ethnography: Improving Transparency, Replicability, and Validity for Realist Approaches to Ethnographic Analysis.” *Ethnography* 19(2):254–84. [https://doi.org/10.1177/1466138117725340](https://doi.org/10.1177/1466138117725340).
 
+Abramson, Corey M., Zhuofan Li, Tara Prendergast, and Martín Sánchez-Jankowski. 2024. “Inequality in the Origins and Experiences of Pain: What ‘Big (Qualitative) Data’ Reveal About Social Suffering in the United States.” *RSF: The Russell Sage Foundation Journal of the Social Sciences* 10(5):34–65. [https://doi.org/10.7758/RSF.2024.10.5.02](https://doi.org/10.7758/RSF.2024.10.5.02).
+
 Computational Ethnography Lab (CEL). 2025. *About the Lab*. (Accessed September 25, 2025). [https://computationalethnography.org/](https://computationalethnography.org/).
 
 Dohan, Daniel, and Martín Sánchez-Jankowski. 1998. “Using Computers to Analyze Ethnographic Field Data: Theoretical and Practical Considerations.” *Annual Review of Sociology* 24(1):477–98. [https://doi.org/10.1146/annurev.soc.24.1.477](https://doi.org/10.1146/annurev.soc.24.1.477).  
@@ -483,7 +495,7 @@ Hanson, Kenneth R., and Nicholas Theis. 2024. “Networked Participants, Network
 
 Li, Zhuofan, and Corey M. Abramson. 2025. “Ethnography and Machine Learning: Synergies and New Directions.” Pp. 245–272 in *The Oxford Handbook of the Sociology of Machine Learning*, edited by C. Borch and J. P. Pardo-Guerra. Oxford: Oxford University Press. Preprint: [https://doi.org/10.48550/arXiv.2412.06087](https://doi.org/10.48550/arXiv.2412.06087).
 
-Li, Zhuofan, Daniel Dohan, and Corey M. Abramson. 2021. “Qualitative Coding in the Computational Era: A Hybrid Approach to Improve Reliability and Reduce Effort for Coding Ethnographic Interviews.” *Socius* 7. [https://doi.org/10.1177/23780231211041293](https://osf.io/preprints/socarxiv/gpr4n_v1).
+Li, Zhuofan, Daniel Dohan, and Corey M. Abramson. 2021. “Qualitative Coding in the Computational Era: A Hybrid Approach to Improve Reliability and Reduce Effort for Coding Ethnographic Interviews.” *Socius* 7. [https://doi.org/10.1177/23780231211062345](https://doi.org/10.1177/23780231211062345).
 
 ### Computational Social Science (CSS) and Text Analysis Methods
 
@@ -493,7 +505,7 @@ DiMaggio, Paul. 2015. “Adapting Computational Text Analysis to Social Science 
 
 Grimmer, Justin, and Brandon M. Stewart. 2013. “Text as Data: The Promise and Pitfalls of Automatic Content Analysis Methods for Political Texts.” *Political Analysis* 21(3):267–97. [https://doi.org/10.1093/pan/mps028](https://doi.org/10.1093/pan/mps028).
 
-Grimmer, Justin, Margaret E. Roberts, and Brandon M. Stewart. 2022. *Text as Data: A New Framework for Machine Learning and the Social Sciences*. Princeton, NJ: Princeton University Press. [book](https://press.princeton.edu/books/hardcover/9780691207544/text-as-data?srsltid=AfmBOopMdxZW6nzRGVF-ez56a7XR_gMqcVmLyJQ3TOw56etBrdg-OeVX).
+Grimmer, Justin, Margaret E. Roberts, and Brandon M. Stewart. 2022. *Text as Data: A New Framework for Machine Learning and the Social Sciences*. Princeton, NJ: Princeton University Press. [book](https://press.princeton.edu/books/hardcover/9780691207544/text-as-data).
 
 Roberts, Margaret E., Brandon M. Stewart, and Dustin Tingley. 2019. “stm: An R Package for Structural Topic Models.” *Journal of Statistical Software* 91(2):1–40. [https://doi.org/10.18637/jss.v091.i02](https://doi.org/10.18637/jss.v091.i02).
 
@@ -505,7 +517,7 @@ Abramson, Corey M. and Yuhan (Victoria) Nian. 2025. *CMAP Visualization Toolkit*
 
 Battle-Baptiste, Whitney, and Britt Rusert (Eds.). 2018. *W. E. B. Du Bois’s Data Portraits: Visualizing Black America*. New York: Princeton Architectural Press. [https://doi.org/10.5040/9781621536830](https://doi.org/10.5040/9781621536830).
 
-Du Bois, W. E. B. 1900. *Charts and Graphs Showing the Condition of African Americans at the Turn of the Century Exhibited at the Paris Exposition Universelle in 1900*. Washington, D.C.: Library of Congress, Prints & Photographs Division.[link](https://www.loc.gov/pictures/item/2005679642/)
+Du Bois, W. E. B. 1900. *Charts and Graphs Showing the Condition of African Americans at the Turn of the Century Exhibited at the Paris Exposition Universelle in 1900*. Washington, D.C.: Library of Congress, Prints & Photographs Division. [link](https://www.loc.gov/pictures/item/2005679642/)
 
 Healy, Kieran. 2018. *Data Visualization: A Practical Introduction*. Princeton, NJ: Princeton University Press.
 
@@ -539,5 +551,3 @@ Boutyline, Andrei and Alina Arseniev-Koehler. 2025. “Meaning in Hyperspace: Wo
 Geertz, Clifford. 1973. *The Interpretation of Cultures: Selected Essays*. New York: Basic Books. See especially the essay on _Thick Description_
 
 Mohr, John W., and Vincent Duquenne. 1997. “The Duality of Culture and Practice: Poverty Relief in New York City, 1888–1917.” *Theory and Society* 26(2/3):305–56. [https://doi.org/10.1023/A:1006887701210](https://www.jstor.org/stable/657930).
-
-> NOTE: Some content in this repository was edited and formatted with assistance from Claude Sonnet 4.6 and Opus 4.6 (Anthropic).
